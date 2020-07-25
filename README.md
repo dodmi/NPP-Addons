@@ -1,7 +1,7 @@
 # Customizations for [Notepad++](https://notepad-plus-plus.org/)
 
 ## Themes
-You'll find three theme files for Notepad++ in the `theme` sub foler. 
+You'll find three theme files for Notepad++ in the `themes` sub foler. 
 They are built upon the `stylers.model.xml` included in Notepad++ 7.8.9 
 (and therefore support all languages defined in this version) 
 and are based on the [Solarized color palette](https://ethanschoonover.com/solarized/).
