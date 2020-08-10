@@ -1,4 +1,4 @@
-# How to use custom theme files?
+# How to use user defined language files?
 - These files need to be copied to the themes folder in your Nptepad++ config folder (`%AppData%\Notepad++\userDefineLangs` for default installations)
 - (Re)start Notepad++ after copying the files and they should appear in `Languages`
 
