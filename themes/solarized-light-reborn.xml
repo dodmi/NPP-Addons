@@ -5,7 +5,7 @@ What is this?
 This is a theme for Notepad++. It provides color definitions for displaying texts and syntax highlighting.
 - This is a light theme
 - It is based on Solarized by Ethan Schoonover ( http://ethanschoonover.com/solarized ), which defines the color palette used in this theme
-- It is based on the stylers.model.xml from Notepad++ 7.9 ( which means, all languages, that were defined there, are supported )
+- It is based on the stylers.model.xml from Notepad++ 7.91 ( which means, all languages, that were defined there, are supported )
 
 How to use this file?
 This file needs to be copied to the themes folder in your Nptepad++ config folder ( %AppData%\Notepad++\themes for default installations )
@@ -15,7 +15,7 @@ Where do I get the latest version?
 https://github.com/dodmi/NPP/tree/master/themes
 
 When was this file updated?
-2020-09-28
+2020-11-02
 
 -->
 <NotepadPlus>
@@ -556,6 +556,7 @@ When was this file updated?
       <WordsStyle name="SECTION" styleID="2" fgColor="268BD2" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="ASSIGNMENT" styleID="3" fgColor="586E75" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="DEFVAL" styleID="4" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="KEY" styleID="5" fgColor="268BD2" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
     </LexerType>
     <LexerType name="inno" desc="InnoSetup" ext="">
       <WordsStyle name="DEFAULT" styleID="0" fgColor="657B83" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
@@ -892,6 +893,7 @@ When was this file updated?
       <WordsStyle name="QUESTION MARK" styleID="18" fgColor="DC322F" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="DEFAULT" styleID="118" fgColor="657B83" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="STRING" styleID="119" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="COMPLEX VARIABLE" styleID="104" fgColor="B58900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="STRING VARIABLE" styleID="126" fgColor="B58900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="SIMPLESTRING" styleID="120" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="WORD" styleID="121" fgColor="859900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
@@ -941,6 +943,7 @@ When was this file updated?
       <WordsStyle name="SECTION" styleID="2" fgColor="268BD2" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="ASSIGNMENT" styleID="3" fgColor="586E75" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="DEFVAL" styleID="4" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="KEY" styleID="5" fgColor="268BD2" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
     </LexerType>
     <LexerType name="purebasic" desc="PureBasic" ext="">
       <WordsStyle name="DEFAULT" styleID="0" fgColor="657B83" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
@@ -1398,6 +1401,7 @@ When was this file updated?
     <WidgetStyle name="Caret colour" styleID="2069" fgColor="073642" />
     <WidgetStyle name="Edge colour" styleID="0" fgColor="93A1A1" />
     <WidgetStyle name="Line number margin" styleID="33" fgColor="93A1A1" bgColor="EEE8D5" fontName="" fontStyle="0" fontSize="" />
+    <WidgetStyle name="Bookmark margin" styleID="0" bgColor="EEE8D5" />
     <WidgetStyle name="Fold" styleID="0" fgColor="93A1A1" bgColor="EEE8D5" />
     <WidgetStyle name="Fold active" styleID="0" fgColor="DC322F" />
     <WidgetStyle name="Fold margin" styleID="0" fgColor="93A1A1" bgColor="EEE8D5" />
