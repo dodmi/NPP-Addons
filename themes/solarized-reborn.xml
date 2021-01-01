@@ -5,7 +5,7 @@ What is this?
 This is a theme for Notepad++. It provides color definitions for displaying texts and syntax highlighting.
 - This is a dark theme
 - It is based on Solarized by Ethan Schoonover ( http://ethanschoonover.com/solarized ), which defines the color palette used in this theme
-- It is based on the stylers.model.xml from Notepad++ 7.91 ( which means, all languages, that were defined there, are supported )
+- It is based on the stylers.model.xml from Notepad++ 7.92 ( which means, all languages, that were defined there, are supported )
 
 How to use this file?
 This file needs to be copied to the themes folder in your Nptepad++ config folder ( %AppData%\Notepad++\themes for default installations )
@@ -15,7 +15,7 @@ Where do I get the latest version?
 https://github.com/dodmi/NPP/tree/master/themes
 
 When was this file updated?
-2020-11-02
+2021-01-01
 
 -->
 <NotepadPlus>
@@ -1385,7 +1385,6 @@ When was this file updated?
       <WordsStyle name="File Header" styleID="2" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="Line Number" styleID="3" fgColor="586E75" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="Hit Word" styleID="4" fgColor="6C71C4" bgColor="073642" fontName="" fontStyle="1" fontSize="" />
-      <WordsStyle name="Selected Line" styleID="5" fgColor="839496" bgColor="EEE8D5" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="Current line background colour" styleID="6" bgColor="073642" />
     </LexerType>
   </LexerStyles>
