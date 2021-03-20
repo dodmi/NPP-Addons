@@ -6,10 +6,10 @@
 Is the **Markdown** definition file from Notepad++. I've adapted it to use the Solarized color palette.
 It matches my `Solarized-light-blackened` theme, but should be ok with any light theme.
 
-![PowerShell in Solarized-blackened](../docs/images/markdown.png)
+![Markdown in Solarized-blackened](../docs/images/markdown.png)
 
 ## logfile.userDefined.udl.xml
 Provides highlighting in **log** files, using the Solarized color palette.
 It matches my `Solarized-light-blackened` theme, but should be ok with any light theme.
 
-![PowerShell in Solarized-blackened](../docs/images/logfile.png)
+![A log file in Solarized-blackened](../docs/images/logfile.png)
