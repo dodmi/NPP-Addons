@@ -11,12 +11,12 @@ these are named `Solarized-reborn` and `Solarized-light-reborn`.
 The main difference is, that these support more languages for syntax highlighting. 
 Have a look at the [Solarized color palette](https://ethanschoonover.com/solarized/) to get an impression.
 
-![PowerShell in Solarized-reborn](docs/images/solarized_reborn.png)
+![PowerShell in Solarized-reborn](../docs/images/solarized_reborn.png)
 
-![PowerShell in Solarized-light-reborn](docs/images/solarized_light_reborn.png)
+![PowerShell in Solarized-light-reborn](../docs/images/solarized_light_reborn.png)
 
 ## Solarized-light-blackened
 `Solarized-light-blackened` uses a black foreground color for default text. 
 I'm using this one for better readability, but it's not sticking strictly to the official Solarized palette.
 
-![PowerShell in Solarized-blackened](docs/images/solarized_blackened.png)
+![PowerShell in Solarized-blackened](../docs/images/solarized_blackened.png)
