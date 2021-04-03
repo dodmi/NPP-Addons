@@ -1,5 +1,8 @@
 # Customizations for [Notepad++](https://notepad-plus-plus.org/)
 
+## Notepad replacement
+You'll find a vbs script for replacing Notepad with Notepad++ in the `notepadReplacement` sub folder.
+
 ## Themes
 You'll find some theme files for Notepad++ in the `themes` sub folder. 
 
