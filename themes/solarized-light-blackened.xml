@@ -6,7 +6,7 @@ This is a theme for Notepad++. It provides color definitions for displaying text
 - This is a light theme
 - It is based on Solarized by Ethan Schoonover ( http://ethanschoonover.com/solarized ), which defines the color palette used in this theme
 - In contrast to the proposed palette, black foreground color is used for the default text to get a higher contrast
-- It is based on the stylers.model.xml from Notepad++ 7.94 ( which means, all languages, that were defined there, are supported )
+- It is based on the stylers.model.xml from Notepad++ 8.14 ( which means, all languages, that were defined there, are supported )
 
 How to use this file?
 This file needs to be copied to the themes folder in your Nptepad++ config folder ( %AppData%\Notepad++\themes for default installations )
@@ -16,7 +16,7 @@ Where do I get the latest version?
 https://github.com/dodmi/NPP-Addons/tree/master/themes
 
 When was this file updated?
-2021-03-15
+2021-08-25
 
 -->
 <NotepadPlus>
@@ -780,7 +780,7 @@ When was this file updated?
       <WordsStyle name="FUNCTION DEFINITIONS" styleID="17" fgColor="859900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="COMMENT" styleID="18" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="2" fontSize="" />
     </LexerType>
-    <LexerType name="nimrod" desc="Nimrod" ext="">
+    <LexerType name="nim" desc="Nim" ext="">
       <WordsStyle name="WHITE SPACE" styleID="0" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="COMMENT" styleID="1" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="2" fontSize="" />
       <WordsStyle name="NUMBER" styleID="2" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
@@ -1286,6 +1286,25 @@ When was this file updated?
       <WordsStyle name="PREPROC" styleID="24" fgColor="DC322F" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="POSTPROC" styleID="25" fgColor="DC322F" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
     </LexerType>
+    <LexerType name="typescript" desc="TypeScript" ext="">
+      <WordsStyle name="DEFAULT" styleID="11" fgColor="000001" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="859900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
+      <WordsStyle name="TYPE WORD" styleID="16" fgColor="268BD2" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
+      <WordsStyle name="WINDOW INSTRUCTION" styleID="19" fgColor="CB4B16" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="NUMBER" styleID="4" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="STRING" styleID="6" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="STRINGRAW" styleID="20" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="CHARACTER" styleID="7" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="OPERATOR" styleID="10" fgColor="586E75" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="VERBATIM" styleID="13" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="REGEX" styleID="14" fgColor="268BD2" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="COMMENT" styleID="1" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="2" fontSize="" />
+      <WordsStyle name="COMMENT LINE" styleID="2" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="2" fontSize="" />
+      <WordsStyle name="COMMENT DOC" styleID="3" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="2" fontSize="" />
+      <WordsStyle name="COMMENT LINE DOC" styleID="15" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="2" fontSize="" />
+      <WordsStyle name="COMMENT DOC KEYWORD" styleID="17" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="3" fontSize="" />
+      <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="18" fgColor="D33682" bgColor="FDF6E3" fontName="" fontStyle="3" fontSize="" />
+    </LexerType>
     <LexerType name="vb" desc="VB / VBS" ext="">
       <WordsStyle name="DEFAULT" styleID="7" fgColor="000001" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="COMMENT" styleID="1" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="2" fontSize="" />
@@ -1397,7 +1416,7 @@ When was this file updated?
     <WidgetStyle name="Brace highlight style" styleID="34" fgColor="002B36" bgColor="B58900" fontName="" fontStyle="1" fontSize="" />
     <WidgetStyle name="Bad brace colour" styleID="35" fgColor="D33682" bgColor="FDF6E3" fontName="" fontStyle="1" fontSize="" />
     <WidgetStyle name="Current line background colour" styleID="0" bgColor="EEE8D5" />
-    <WidgetStyle name="Selected text colour" styleID="0" bgColor="FFD75E" />
+    <WidgetStyle name="Selected text colour" styleID="0" bgColor="FFD75E" fgColor="000000" />
     <WidgetStyle name="Caret colour" styleID="2069" fgColor="073642" />
     <WidgetStyle name="Edge colour" styleID="0" fgColor="93A1A1" />
     <WidgetStyle name="Line number margin" styleID="33" fgColor="93A1A1" bgColor="EEE8D5" fontName="" fontStyle="0" fontSize="" />
