@@ -5,7 +5,7 @@ What is this?
 This is a theme for Notepad++. It provides color definitions for displaying texts and syntax highlighting.
 - This is a dark theme
 - It is based on Solarized by Ethan Schoonover ( http://ethanschoonover.com/solarized ), which defines the color palette used in this theme
-- It is based on the stylers.model.xml from Notepad++ 8.32 ( which means, all languages, that were defined there, are supported )
+- It is based on the stylers.model.xml from Notepad++ 8.42 ( which means, all languages, that were defined there, are supported )
 
 How to use this file?
 This file needs to be copied to the themes folder in your Nptepad++ config folder ( %AppData%\Notepad++\themes for default installations )
@@ -15,7 +15,7 @@ Where do I get the latest version?
 https://github.com/dodmi/NPP-Addons/tree/master/themes
 
 When was this file updated?
-2022-02-27
+2022-06-07
 
 -->
 <NotepadPlus>
@@ -66,7 +66,7 @@ When was this file updated?
       <WordsStyle name="TYPES" styleID="9" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type2" />
       <WordsStyle name="OPERATORS" styleID="10" fgColor="93A1A1" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
     </LexerType>
-    <LexerType name="asp" desc="asp" ext="asp">
+    <LexerType name="asp" desc="ASP" ext="">
       <WordsStyle name="DEFAULT" styleID="81" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="COMMENT LINE" styleID="82" fgColor="586E75" bgColor="002B36" fontName="" fontStyle="2" fontSize="" />
       <WordsStyle name="NUMBER" styleID="83" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
@@ -92,7 +92,7 @@ When was this file updated?
       <WordsStyle name="CHARACTER" styleID="12" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="EXT INSTRUCTION" styleID="14" fgColor="268BD2" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type4" />
     </LexerType>
-    <LexerType name="autoit" desc="autoIt" ext="">
+    <LexerType name="autoit" desc="AutoIt" ext="">
       <WordsStyle name="DEFAULT" styleID="0" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="COMMENT LINE" styleID="1" fgColor="586E75" bgColor="002B36" fontName="" fontStyle="2" fontSize="" />
       <WordsStyle name="COMMENT" styleID="2" fgColor="586E75" bgColor="002B36" fontName="" fontStyle="2" fontSize="" />
@@ -154,7 +154,7 @@ When was this file updated?
       <WordsStyle name="OBJECT DEFINITIONS" styleID="23" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="PREPROC DEFINITIONS" styleID="24" fgColor="DC322F" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
     </LexerType>
-    <LexerType name="bash" desc="bash" ext="">
+    <LexerType name="bash" desc="Bash" ext="">
       <WordsStyle name="DEFAULT" styleID="0" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="ERROR" styleID="1" fgColor="D33682" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="INSTRUCTION WORD" styleID="4" fgColor="859900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
@@ -273,7 +273,7 @@ When was this file updated?
       <WordsStyle name="COMMENT DOC" styleID="14" fgColor="586E75" bgColor="002B36" fontName="" fontStyle="2" fontSize="" />
       <WordsStyle name="COMMENT LINE DOC" styleID="15" fgColor="586E75" bgColor="002B36" fontName="" fontStyle="2" fontSize="" />
     </LexerType>
-    <LexerType name="cmake" desc="CMakeFile" ext="cmake">
+    <LexerType name="cmake" desc="CMake" ext="">
       <WordsStyle name="DEFAULT" styleID="0" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="COMMENT" styleID="1" fgColor="586E75" bgColor="002B36" fontName="" fontStyle="2" fontSize="" />
       <WordsStyle name="STRING D" styleID="2" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
@@ -378,12 +378,12 @@ When was this file updated?
       <WordsStyle name="DEFAULT" styleID="0" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="IDENTIFIER" styleID="14" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="INSTRUCTION WORD" styleID="6" fgColor="859900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
-      <WordsStyle name="KEWORD1" styleID="7" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
-      <WordsStyle name="KEWORD2" styleID="8" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
-      <WordsStyle name="KEWORD3" styleID="9" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type2" />
-      <WordsStyle name="KEWORD4" styleID="20" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type3" />
-      <WordsStyle name="KEWORD5" styleID="21" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type4" />
-      <WordsStyle name="KEWORD6" styleID="22" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type5" />
+      <WordsStyle name="KEYWORD1" styleID="7" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
+      <WordsStyle name="KEYWORD2" styleID="8" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
+      <WordsStyle name="KEYWORD3" styleID="9" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type2" />
+      <WordsStyle name="KEYWORD4" styleID="20" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type3" />
+      <WordsStyle name="KEYWORD5" styleID="21" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type4" />
+      <WordsStyle name="KEYWORD6" styleID="22" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type5" />
       <WordsStyle name="NUMBER" styleID="5" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="STRING" styleID="10" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="CHARACTER" styleID="12" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
@@ -398,7 +398,7 @@ When was this file updated?
       <WordsStyle name="STRING B" styleID="18" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="STRING R" styleID="19" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
     </LexerType>
-    <LexerType name="diff" desc="DIFF" ext="">
+    <LexerType name="diff" desc="diff file" ext="">
       <WordsStyle name="DEFAULT" styleID="0" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="COMMENT" styleID="1" fgColor="586E75" bgColor="002B36" fontName="" fontStyle="2" fontSize="" />
       <WordsStyle name="COMMAND" styleID="2" fgColor="93A1A1" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
@@ -435,7 +435,7 @@ When was this file updated?
       <WordsStyle name="OPERATORS" styleID="6" fgColor="93A1A1" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="UNKNOWN: ERROR" styleID="31" fgColor="D33682" bgColor="002B36" fontName="" fontStyle="3" fontSize="" />
     </LexerType>
-    <LexerType name="escript" desc="ESCRIPT" ext="">
+    <LexerType name="escript" desc="eScript" ext="">
       <WordsStyle name="DEFAULT" styleID="0" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="COMMENT" styleID="1" fgColor="586E75" bgColor="002B36" fontName="" fontStyle="2" fontSize="" />
       <WordsStyle name="LINE COMMENT" styleID="2" fgColor="586E75" bgColor="002B36" fontName="" fontStyle="2" fontSize="" />
@@ -495,7 +495,7 @@ When was this file updated?
       <WordsStyle name="LABEL" styleID="13" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="CONTINUATION" styleID="14" fgColor="D33682" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
     </LexerType>
-    <LexerType name="freebasic" desc="FreeBasic" ext="">
+    <LexerType name="freebasic" desc="FreeBASIC" ext="">
       <WordsStyle name="DEFAULT" styleID="0" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="COMMENT" styleID="1" fgColor="586E75" bgColor="002B36" fontName="" fontStyle="2" fontSize="" />
       <WordsStyle name="NUMBER" styleID="2" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
@@ -512,17 +512,17 @@ When was this file updated?
       <WordsStyle name="HEXNUMBER" styleID="17" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="BINNUMBER" styleID="18" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
     </LexerType>
-    <LexerType name="gui4cli" desc="GUI4CLI" ext="">
+    <LexerType name="gui4cli" desc="Gui4Cli" ext="">
       <WordsStyle name="DEFAULT" styleID="0" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="COMMENT LINE" styleID="1" fgColor="586E75" bgColor="002B36" fontName="" fontStyle="2" fontSize="" />
       <WordsStyle name="COMMENT" styleID="2" fgColor="586E75" bgColor="002B36" fontName="" fontStyle="2" fontSize="" />
-      <WordsStyle name="GLOBAL" styleID="5" fgColor="839496" bgColor="002B36" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
-      <WordsStyle name="EVENT" styleID="5" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
-      <WordsStyle name="ATTRIBUTE" styleID="16" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
-      <WordsStyle name="CONTROL" styleID="16" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type2" />
-      <WordsStyle name="COMMAND" styleID="16" fgColor="93A1A1" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type3" />
-      <WordsStyle name="STRING" styleID="6" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
-      <WordsStyle name="OPERATOR" styleID="10" fgColor="93A1A1" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="GLOBAL" styleID="3" fgColor="839496" bgColor="002B36" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
+      <WordsStyle name="EVENT" styleID="4" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
+      <WordsStyle name="ATTRIBUTE" styleID="5" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
+      <WordsStyle name="CONTROL" styleID="6" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type2" />
+      <WordsStyle name="COMMAND" styleID="7" fgColor="93A1A1" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type3" />
+      <WordsStyle name="STRING" styleID="8" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="OPERATOR" styleID="9" fgColor="93A1A1" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
     </LexerType>
     <LexerType name="haskell" desc="Haskell" ext="">
       <WordsStyle name="DEFAULT" styleID="0" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
@@ -580,7 +580,7 @@ When was this file updated?
       <WordsStyle name="CHECKSUM_WRONG" styleID="17" fgColor="D33682" bgColor="002B36" fontName="" fontStyle="3" fontSize="" />
       <WordsStyle name="GARBAGE" styleID="18" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
     </LexerType>
-    <LexerType name="ini" desc="ini file" ext="">
+    <LexerType name="ini" desc="INI file" ext="">
       <WordsStyle name="DEFAULT" styleID="0" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="COMMENT" styleID="1" fgColor="586E75" bgColor="002B36" fontName="" fontStyle="2" fontSize="" />
       <WordsStyle name="SECTION" styleID="2" fgColor="268BD2" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
@@ -766,7 +766,7 @@ When was this file updated?
       <WordsStyle name="SYMBOL" styleID="16" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
       <WordsStyle name="COMMENT OTHERWISE" styleID="17" fgColor="586E75" bgColor="002B36" fontName="" fontStyle="2" fontSize="" />
     </LexerType>
-    <LexerType name="nfo" desc="Dos Style" ext="">
+    <LexerType name="nfo" desc="DOS Style" ext="">
       <WordsStyle name="DEFAULT" styleID="32" fgColor="839496" bgColor="002B36" />
     </LexerType>
     <LexerType name="nsis" desc="NSIS" ext="">
@@ -808,7 +808,7 @@ When was this file updated?
       <WordsStyle name="HIGHLIGHTED IDENTIFIERS" styleID="14" fgColor="CB4B16" bgColor="073642" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="DECORATORS" styleID="15" fgColor="859900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
     </LexerType>
-    <LexerType name="nncrontab" desc="extended crontab" ext="">
+    <LexerType name="nncrontab" desc="nnCron" ext="">
       <WordsStyle name="WHITE SPACE" styleID="0" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="COMMENT" styleID="1" fgColor="586E75" bgColor="002B36" fontName="" fontStyle="2" fontSize="" />
       <WordsStyle name="TASK START/END" styleID="2" fgColor="268BD2" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
@@ -900,7 +900,7 @@ When was this file updated?
       <WordsStyle name="REGSUBST" styleID="18" fgColor="268BD2" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="BACKTICKS" styleID="20" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
     </LexerType>
-    <LexerType name="php" desc="php" ext="">
+    <LexerType name="php" desc="PHP" ext="">
       <WordsStyle name="QUESTION MARK" styleID="18" fgColor="DC322F" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="DEFAULT" styleID="118" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="STRING" styleID="119" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
@@ -1007,7 +1007,7 @@ When was this file updated?
       <WordsStyle name="INFIX" styleID="10" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="IDENTIFIER" styleID="9" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
     </LexerType>
-    <LexerType name="rc" desc="RC" ext="">
+    <LexerType name="rc" desc="Resource file" ext="">
       <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="DC322F" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="DEFAULT" styleID="11" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="859900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
@@ -1058,7 +1058,7 @@ When was this file updated?
       <WordsStyle name="KEYWORD 6" styleID="26" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type4" />
       <WordsStyle name="KEYWORD 7" styleID="27" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type5" />
     </LexerType>
-    <LexerType name="registry" desc="registry" ext="">
+    <LexerType name="registry" desc="Registry" ext="">
       <WordsStyle name="DEFAULT STYLE" styleID="32" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="DEFAULT" styleID="0" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="COMMENT" styleID="1" fgColor="586E75" bgColor="002B36" fontName="" fontStyle="2" fontSize="" />
@@ -1156,7 +1156,7 @@ When was this file updated?
       <WordsStyle name="CHARACTER" styleID="15" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="SPECIAL SELECTOR" styleID="16" fgColor="859900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
     </LexerType>
-    <LexerType name="spice" desc="spice" ext="">
+    <LexerType name="spice" desc="SPICE" ext="">
       <WordsStyle name="DEFAULT" styleID="0" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="IDENTIFIERS" styleID="1" fgColor="859900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="KEYWORD" styleID="2" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
@@ -1436,7 +1436,7 @@ When was this file updated?
     <WidgetStyle name="Fold active" styleID="0" fgColor="DC322F" />
     <WidgetStyle name="Fold margin" styleID="0" fgColor="586E75" bgColor="073642" />
     <WidgetStyle name="White space symbol" styleID="0" fgColor="586E75" />
-    <WidgetStyle name="Smart HighLighting" styleID="29" bgColor="B58900" />
+    <WidgetStyle name="Smart Highlighting" styleID="29" bgColor="B58900" />
     <WidgetStyle name="Find Mark Style" styleID="31" bgColor="6C71C4" />
     <WidgetStyle name="Mark Style 1" styleID="25" bgColor="DC322F" />
     <WidgetStyle name="Mark Style 2" styleID="24" bgColor="268BD2" />
