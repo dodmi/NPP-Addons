@@ -5,7 +5,7 @@ What is this?
 This is a theme for Notepad++. It provides color definitions for displaying texts and syntax highlighting.
 - This is a dark theme
 - It is based on Solarized by Ethan Schoonover ( http://ethanschoonover.com/solarized ), which defines the color palette used in this theme
-- It is based on the stylers.model.xml from Notepad++ 8.42 ( which means, all languages, that were defined there, are supported )
+- It is based on the stylers.model.xml from Notepad++ 8.47 ( which means, all languages, that were defined there, are supported )
 
 How to use this file?
 This file needs to be copied to the themes folder in your Nptepad++ config folder ( %AppData%\Notepad++\themes for default installations )
@@ -15,7 +15,7 @@ Where do I get the latest version?
 https://github.com/dodmi/NPP-Addons/tree/master/themes
 
 When was this file updated?
-2022-06-07
+2022-11-08
 
 -->
 <NotepadPlus>
@@ -1004,8 +1004,13 @@ When was this file updated?
       <WordsStyle name="STRING" styleID="6" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="STRING2" styleID="7" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="OPERATOR" styleID="8" fgColor="93A1A1" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
-      <WordsStyle name="INFIX" styleID="10" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="IDENTIFIER" styleID="9" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="INFIX" styleID="10" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="INFIXEOL" styleID="11" fgColor="DC322F" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="BACKTICKS" styleID="12" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="RAWSTRING" styleID="13" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="RAWSTRING2" styleID="14" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="ESCAPESEQUENCE" styleID="15" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
     </LexerType>
     <LexerType name="rc" desc="Resource file" ext="">
       <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="DC322F" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
@@ -1432,6 +1437,7 @@ When was this file updated?
     <WidgetStyle name="Edge colour" styleID="0" fgColor="586E75" />
     <WidgetStyle name="Line number margin" styleID="33" fgColor="586E75" bgColor="073642" fontName="" fontStyle="0" fontSize="" />
     <WidgetStyle name="Bookmark margin" styleID="0" bgColor="073642" />
+    <WidgetStyle name="Change History margin" styleID="0" bgColor="073642" />
     <WidgetStyle name="Fold" styleID="0" fgColor="586E75" bgColor="073642" />
     <WidgetStyle name="Fold active" styleID="0" fgColor="DC322F" />
     <WidgetStyle name="Fold margin" styleID="0" fgColor="586E75" bgColor="073642" />
@@ -1452,5 +1458,6 @@ When was this file updated?
     <WidgetStyle name="Inactive tabs" styleID="0" fgColor="EEE8D5" bgColor="586E75" />
     <WidgetStyle name="URL hovered" styleID="0" fgColor="839496" />
     <WidgetStyle name="Document map" styleID="0" fgColor="FDF6E3" bgColor="002B36" />
+    <WidgetStyle name="EOL custom color" styleID="0" fgColor="DC322F" />
   </GlobalStyles>
 </NotepadPlus>
