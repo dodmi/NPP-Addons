@@ -5,7 +5,7 @@ What is this?
 This is a theme for Notepad++. It provides color definitions for displaying texts and syntax highlighting.
 - This is a dark theme
 - It is based on Solarized by Ethan Schoonover ( http://ethanschoonover.com/solarized ), which defines the color palette used in this theme
-- It is based on the stylers.model.xml from Notepad++ 8.47 ( which means, all languages, that were defined there, are supported )
+- It is based on the stylers.model.xml from Notepad++ 8.48 ( which means, all languages, that were defined there, are supported )
 
 How to use this file?
 This file needs to be copied to the themes folder in your Nptepad++ config folder ( %AppData%\Notepad++\themes for default installations )
@@ -15,7 +15,7 @@ Where do I get the latest version?
 https://github.com/dodmi/NPP-Addons/tree/master/themes
 
 When was this file updated?
-2022-11-08
+2022-12-25
 
 -->
 <NotepadPlus>
@@ -940,9 +940,12 @@ When was this file updated?
       <WordsStyle name="NUMBER" styleID="4" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="VARIABLE" styleID="5" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="OPERATOR" styleID="6" fgColor="93A1A1" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="IDENTIFIER" styleID="7" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="INSTRUCTION WORD" styleID="8" fgColor="859900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
       <WordsStyle name="CMDLET" styleID="9" fgColor="268BD2" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
       <WordsStyle name="ALIAS" styleID="10" fgColor="859900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
+      <WordsStyle name="FUNCTION" styleID="11" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type2" />
+      <WordsStyle name="USER KEYWORDS" styleID="12" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type3" />
       <WordsStyle name="COMMENT STREAM" styleID="13" fgColor="586E75" bgColor="002B36" fontName="" fontStyle="2" fontSize="" />
       <WordsStyle name="HERE STRING" styleID="14" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="HERE CHARACTER" styleID="15" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
@@ -1432,6 +1435,7 @@ When was this file updated?
     <WidgetStyle name="Brace highlight style" styleID="34" fgColor="FDF6E3" bgColor="B58900" fontName="" fontStyle="1" fontSize="" />
     <WidgetStyle name="Bad brace colour" styleID="35" fgColor="D33682" bgColor="073642" fontName="" fontStyle="1" fontSize="" />
     <WidgetStyle name="Current line background colour" styleID="0" bgColor="073642" />
+    <!-- In below rule 'fgColor' attribute for 'Selected text colour' can be unlocked with a enableSelectFgColor.xml file -->
     <WidgetStyle name="Selected text colour" styleID="0" bgColor="EEE8D5" fgColor="000000" />
     <WidgetStyle name="Caret colour" styleID="2069" fgColor="EEE8D5" />
     <WidgetStyle name="Edge colour" styleID="0" fgColor="586E75" />
