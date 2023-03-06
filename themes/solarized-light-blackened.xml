@@ -6,7 +6,7 @@ This is a theme for Notepad++. It provides color definitions for displaying text
 - This is a light theme
 - It is based on Solarized by Ethan Schoonover ( http://ethanschoonover.com/solarized ), which defines the color palette used in this theme
 - In contrast to the proposed palette, black foreground color is used for the default text to get a higher contrast
-- It is based on the stylers.model.xml from Notepad++ 8.48 ( which means, all languages, that were defined there, are supported )
+- It is based on the stylers.model.xml from Notepad++ 8.5 ( which means, all languages, that were defined there, are supported )
 
 How to use this file?
 This file needs to be copied to the themes folder in your Nptepad++ config folder ( %AppData%\Notepad++\themes for default installations )
@@ -16,7 +16,7 @@ Where do I get the latest version?
 https://github.com/dodmi/NPP-Addons/tree/master/themes
 
 When was this file updated?
-2022-12-25
+2023-03-06
 
 -->
 <NotepadPlus>
@@ -1464,5 +1464,6 @@ When was this file updated?
     <WidgetStyle name="URL hovered" styleID="0" fgColor="000001" />
     <WidgetStyle name="Document map" styleID="0" fgColor="002B36" bgColor="FDF6E3" />
     <WidgetStyle name="EOL custom color" styleID="0" fgColor="DC322F" />
+    <WidgetStyle name="Non-printing characters custom color" styleID="0" fgColor="93A1A1" />
   </GlobalStyles>
 </NotepadPlus>
