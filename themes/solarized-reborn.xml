@@ -5,7 +5,7 @@ What is this?
 This is a theme for Notepad++. It provides color definitions for displaying texts and syntax highlighting.
 - This is a dark theme
 - It is based on Solarized by Ethan Schoonover ( http://ethanschoonover.com/solarized ), which defines the color palette used in this theme
-- It is based on the stylers.model.xml from Notepad++ 8.5 ( which means, all languages, that were defined there, are supported )
+- It is based on the stylers.model.xml from Notepad++ 8.53 ( which means, all languages, that were defined there, are supported )
 
 How to use this file?
 This file needs to be copied to the themes folder in your Nptepad++ config folder ( %AppData%\Notepad++\themes for default installations )
@@ -15,7 +15,7 @@ Where do I get the latest version?
 https://github.com/dodmi/NPP-Addons/tree/master/themes
 
 When was this file updated?
-2023-03-06
+2023-05-17
 
 -->
 <NotepadPlus>
@@ -543,6 +543,23 @@ When was this file updated?
       <WordsStyle name="COMMENT BLOCK2" styleID="15" fgColor="586E75" bgColor="002B36" fontName="" fontStyle="2" fontSize="" />
       <WordsStyle name="COMMENT BLOCK3" styleID="16" fgColor="586E75" bgColor="002B36" fontName="" fontStyle="2" fontSize="" />
     </LexerType>
+    <LexerType name="hollywood" desc="Hollywood" ext="">
+      <WordsStyle name="DEFAULT" styleID="0" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="COMMENT" styleID="1" fgColor="586E75" bgColor="002B36" fontName="" fontStyle="2" fontSize="" />
+      <WordsStyle name="COMMENT BLOCK" styleID="2" fgColor="586E75" bgColor="002B36" fontName="" fontStyle="2" fontSize="" />
+      <WordsStyle name="NUMBER" styleID="3" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="KEYWORD" styleID="4" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
+      <WordsStyle name="CORE API" styleID="5" fgColor="268BD2" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
+      <WordsStyle name="PLUGIN API" styleID="6" fgColor="268BD2" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
+      <WordsStyle name="PLUGIN METHOD" styleID="7" fgColor="268BD2" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type2" />
+      <WordsStyle name="STRING" styleID="8" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="STRING BLOCK" styleID="9" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="PREPROCESSOR" styleID="10" fgColor="DC322F" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="OPERATOR" styleID="11" fgColor="93A1A1" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="IDENTIFIER" styleID="12" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="CONSTANT" styleID="13" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="HEXNUMBER" styleID="14" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+    </LexerType>
     <LexerType name="html" desc="HTML" ext="">
       <WordsStyle name="DEFAULT" styleID="0" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="COMMENT" styleID="9" fgColor="586E75" bgColor="002B36" fontName="" fontStyle="2" fontSize="" />
@@ -745,6 +762,23 @@ When was this file updated?
       <WordsStyle name="OPERATOR" styleID="6" fgColor="93A1A1" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="IDENTIFIER" styleID="7" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="DOUBLE QUOTE STRING" styleID="8" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+    </LexerType>
+    <LexerType name="mssql" desc="MS T-SQL" ext="">
+      <WordsStyle name="STATEMENT" styleID="9" fgColor="859900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
+      <WordsStyle name="DATA TYPE" styleID="10" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
+      <WordsStyle name="SYSTEM TABLE" styleID="11" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
+      <WordsStyle name="GLOBAL" styleID="12" fgColor="839496" bgColor="002B36" fontName="" fontStyle="1" fontSize="" keywordClass="type2" />
+      <WordsStyle name="FUNCTION" styleID="13" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type3" />
+      <WordsStyle name="SYSTEM STORED PROC" styleID="14" fgColor="268BD2" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type4" />
+      <WordsStyle name="COMMENT" styleID="1" fgColor="586E75" bgColor="002B36" fontName="" fontStyle="2" fontSize="" />
+      <WordsStyle name="COMMENT LINE" styleID="2" fgColor="586E75" bgColor="002B36" fontName="" fontStyle="2" fontSize="" />
+      <WordsStyle name="NUMBER" styleID="3" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="STRING" styleID="4" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="OPERATOR" styleID="5" fgColor="93A1A1" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="IDENTIFIER" styleID="6" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="VARIABLE" styleID="7" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="COL NAME" styleID="8" fgColor="268BD2" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="COL NAME IN []'s" styleID="16" fgColor="268BD2" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
     </LexerType>
     <LexerType name="mmixal" desc="MMIXAL" ext="">
       <WordsStyle name="DIVSION OF LEADING WHITESPACE IN LINE" styleID="0" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
@@ -1322,6 +1356,25 @@ When was this file updated?
       <WordsStyle name="COMMENT LINE DOC" styleID="15" fgColor="586E75" bgColor="002B36" fontName="" fontStyle="2" fontSize="" />
       <WordsStyle name="COMMENT DOC KEYWORD" styleID="17" fgColor="586E75" bgColor="002B36" fontName="" fontStyle="3" fontSize="" />
       <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="18" fgColor="D33682" bgColor="002B36" fontName="" fontStyle="3" fontSize="" />
+    </LexerType>
+    <LexerType name="gdscript" desc="GDScript" ext="">
+      <WordsStyle name="DEFAULT" styleID="0" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="COMMENT LINE" styleID="1" fgColor="586E75" bgColor="002B36" fontName="" fontStyle="2" fontSize="" />
+      <WordsStyle name="NUMBER" styleID="2" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="STRING" styleID="3" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="CHARACTER" styleID="4" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="WORD" styleID="5" fgColor="859900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
+      <WordsStyle name="TRIPLE" styleID="6" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="TRIPLE DOUBLE" styleID="7" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="CLASS NAME" styleID="8" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="FUNC NAME" styleID="9" fgColor="268BD2" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="OPERATOR" styleID="10" fgColor="93A1A1" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="IDENTIFIER" styleID="11" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="COMMENT BLOCK" styleID="12" fgColor="586E75" bgColor="002B36" fontName="" fontStyle="2" fontSize="" />
+      <WordsStyle name="STRING EOL" styleID="13" fgColor="DC322F" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="WORD2" styleID="14" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
+      <WordsStyle name="ANNOTATION" styleID="15" fgColor="859900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="NODEPATH" styleID="16" fgColor="268BD2" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
     </LexerType>
     <LexerType name="vb" desc="VB / VBS" ext="">
       <WordsStyle name="DEFAULT" styleID="7" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
