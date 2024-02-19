@@ -5,7 +5,7 @@ What is this?
 This is a theme for Notepad++. It provides color definitions for displaying texts and syntax highlighting.
 - This is a light theme
 - It is based on Solarized by Ethan Schoonover ( http://ethanschoonover.com/solarized ), which defines the color palette used in this theme
-- It is based on the stylers.model.xml from Notepad++ 8.5.8 ( which means, all languages, that were defined there, are supported )
+- It is based on the stylers.model.xml from Notepad++ 8.6.3 ( which means, all languages, that were defined there, are supported )
 
 How to use this file?
 This file needs to be copied to the themes folder in your Nptepad++ config folder ( %AppData%\Notepad++\themes for default installations )
@@ -15,7 +15,7 @@ Where do I get the latest version?
 https://github.com/dodmi/NPP-Addons/tree/master/themes
 
 When was this file updated?
-2023-10-20
+2024-02-19
 
 -->
 <NotepadPlus>
@@ -179,6 +179,7 @@ When was this file updated?
       <WordsStyle name="COMMAND" styleID="5" fgColor="586E75" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="VARIABLE" styleID="6" fgColor="B58900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="OPERATOR" styleID="7" fgColor="586E75" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="AFTER LABEL" styleID="8" fgColor="DC322F" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
     </LexerType>
     <LexerType name="blitzbasic" desc="BlitzBasic" ext="">
       <WordsStyle name="DEFAULT" styleID="0" fgColor="657B83" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
@@ -1511,7 +1512,9 @@ When was this file updated?
     <WidgetStyle name="Current line background colour" styleID="0" bgColor="EEE8D5" />
     <!-- In below rule 'fgColor' attribute for 'Selected text colour' can be unlocked with a enableSelectFgColor.xml file -->
     <WidgetStyle name="Selected text colour" styleID="0" bgColor="073642" fgColor="000000" />
-    <WidgetStyle name="Caret colour" styleID="2069" fgColor="073642" />
+    <WidgetStyle name="Multi-selected text color" styleID="0" bgColor="FDF6E3" />
+    <WidgetStyle name="Caret colour" styleID="0" fgColor="073642" />
+    <WidgetStyle name="Multi-edit carets color" styleID="0" fgColor="6c71c4" />
     <WidgetStyle name="Edge colour" styleID="0" fgColor="93A1A1" />
     <WidgetStyle name="Line number margin" styleID="33" fgColor="93A1A1" bgColor="EEE8D5" fontName="" fontStyle="0" fontSize="" />
     <WidgetStyle name="Bookmark margin" styleID="0" bgColor="EEE8D5" />
