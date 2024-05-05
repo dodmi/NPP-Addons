@@ -5,7 +5,7 @@ What is this?
 This is a theme for Notepad++. It provides color definitions for displaying texts and syntax highlighting.
 - This is a light theme
 - It is based on Solarized by Ethan Schoonover ( http://ethanschoonover.com/solarized ), which defines the color palette used in this theme
-- It is based on the stylers.model.xml from Notepad++ 8.6.3 ( which means, all languages, that were defined there, are supported )
+- It is based on the stylers.model.xml from Notepad++ 8.6.5 ( which means, all languages, that were defined there, are supported )
 
 How to use this file?
 This file needs to be copied to the themes folder in your Nptepad++ config folder ( %AppData%\Notepad++\themes for default installations )
@@ -15,7 +15,7 @@ Where do I get the latest version?
 https://github.com/dodmi/NPP-Addons/tree/master/themes
 
 When was this file updated?
-2024-02-19
+2024-05-05
 
 -->
 <NotepadPlus>
@@ -1048,6 +1048,7 @@ When was this file updated?
       <WordsStyle name="COMMENT BLOCK" styleID="12" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="2" fontSize="" />
       <WordsStyle name="BUILTINS" styleID="14" fgColor="859900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
       <WordsStyle name="DECORATOR" styleID="15" fgColor="657B83" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="ATTRIBUTE" styleID="20" fgColor="657B83" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="F STRING" styleID="16" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="F CHARACTER" styleID="17" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="F TRIPLE" styleID="18" fgColor="657B83" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
@@ -1519,6 +1520,10 @@ When was this file updated?
     <WidgetStyle name="Line number margin" styleID="33" fgColor="93A1A1" bgColor="EEE8D5" fontName="" fontStyle="0" fontSize="" />
     <WidgetStyle name="Bookmark margin" styleID="0" bgColor="EEE8D5" />
     <WidgetStyle name="Change History margin" styleID="0" bgColor="EEE8D5" />
+    <WidgetStyle name="Change History modified" styleID="0" fgColor="CB4B16" bgColor="CB4B16" />
+    <WidgetStyle name="Change History revert modified" styleID="0" fgColor="6c71c4" bgColor="6c71c4" />
+    <WidgetStyle name="Change History revert origin" styleID="0" fgColor="268BD2" bgColor="268BD2" />
+    <WidgetStyle name="Change History saved" styleID="0" fgColor="859900" bgColor="859900" />
     <WidgetStyle name="Fold" styleID="0" fgColor="93A1A1" bgColor="EEE8D5" />
     <WidgetStyle name="Fold active" styleID="0" fgColor="DC322F" />
     <WidgetStyle name="Fold margin" styleID="0" fgColor="93A1A1" bgColor="EEE8D5" />
