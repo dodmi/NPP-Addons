@@ -1513,7 +1513,7 @@ When was this file updated?
     <WidgetStyle name="Current line background colour" styleID="0" bgColor="EEE8D5" />
     <!-- In below rule 'fgColor' attribute for 'Selected text colour' can be unlocked with a enableSelectFgColor.xml file -->
     <WidgetStyle name="Selected text colour" styleID="0" bgColor="FFD75E" fgColor="000000" />
-    <WidgetStyle name="Multi-selected text color" styleID="0" bgColor="FDF6E3" />
+    <WidgetStyle name="Multi-selected text color" styleID="0" bgColor="FFD75E" />
     <WidgetStyle name="Caret colour" styleID="0" fgColor="073642" />
     <WidgetStyle name="Multi-edit carets color" styleID="0" fgColor="6c71c4" />
     <WidgetStyle name="Edge colour" styleID="0" fgColor="93A1A1" />
