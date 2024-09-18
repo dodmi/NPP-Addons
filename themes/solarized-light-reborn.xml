@@ -5,7 +5,7 @@ What is this?
 This is a theme for Notepad++. It provides color definitions for displaying texts and syntax highlighting.
 - This is a light theme
 - It is based on Solarized by Ethan Schoonover ( http://ethanschoonover.com/solarized ), which defines the color palette used in this theme
-- It is based on the stylers.model.xml from Notepad++ 8.6.7 ( which means, all languages, that were defined there, are supported )
+- It is based on the stylers.model.xml from Notepad++ 8.7 ( which means, all languages, that were defined there, are supported )
 
 How to use this file?
 This file needs to be copied to the themes folder in your Nptepad++ config folder ( %AppData%\Notepad++\themes for default installations )
@@ -15,7 +15,7 @@ Where do I get the latest version?
 https://github.com/dodmi/NPP-Addons/tree/master/themes
 
 When was this file updated?
-2024-05-13
+2024-09-18
 
 -->
 <NotepadPlus>
@@ -40,6 +40,14 @@ When was this file updated?
       <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="18" fgColor="D33682" bgColor="FDF6E3" fontName="" fontStyle="3" fontSize="" />
       <WordsStyle name="PREPROCESSOR COMMENT" styleID="23" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="2" fontSize="" />
       <WordsStyle name="PREPROCESSOR COMMENT DOC" styleID="24" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="2" fontSize="" />
+      <WordsStyle name="USER KEYWORDS 1" styleID="128" fgColor="268BD2" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle1" />
+      <WordsStyle name="USER KEYWORDS 2" styleID="129" fgColor="D33682" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle2" />
+      <WordsStyle name="USER KEYWORDS 3" styleID="130" fgColor="CB4B16" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle3" />
+      <WordsStyle name="USER KEYWORDS 4" styleID="131" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle4" />
+      <WordsStyle name="USER KEYWORDS 5" styleID="132" fgColor="B58900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle5" />
+      <WordsStyle name="USER KEYWORDS 6" styleID="133" fgColor="DC322F" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle6" />
+      <WordsStyle name="USER KEYWORDS 7" styleID="134" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle7" />
+      <WordsStyle name="USER KEYWORDS 8" styleID="135" fgColor="859900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle8" />
     </LexerType>
     <LexerType name="ada" desc="ADA" ext="">
       <WordsStyle name="DEFAULT" styleID="0" fgColor="657B83" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
@@ -75,6 +83,14 @@ When was this file updated?
       <WordsStyle name="IDENTIFIER" styleID="86" fgColor="B58900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="ASP SYMBOL" styleID="15" fgColor="DC322F" bgColor="FDF6E3" fontName="" fontStyle="1" fontSize="" />
       <WordsStyle name="SCRIPT TYPE" styleID="16" fgColor="CB4B16" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="USER KEYWORDS 1" styleID="216" fgColor="268BD2" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle1" />
+      <WordsStyle name="USER KEYWORDS 2" styleID="217" fgColor="D33682" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle2" />
+      <WordsStyle name="USER KEYWORDS 3" styleID="218" fgColor="CB4B16" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle3" />
+      <WordsStyle name="USER KEYWORDS 4" styleID="219" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle4" />
+      <WordsStyle name="USER KEYWORDS 5" styleID="220" fgColor="B58900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle5" />
+      <WordsStyle name="USER KEYWORDS 6" styleID="221" fgColor="DC322F" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle6" />
+      <WordsStyle name="USER KEYWORDS 7" styleID="222" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle7" />
+      <WordsStyle name="USER KEYWORDS 8" styleID="223" fgColor="859900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle8" />
     </LexerType>
     <LexerType name="asm" desc="Assembly" ext="">
       <WordsStyle name="DEFAULT" styleID="0" fgColor="657B83" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
@@ -169,6 +185,14 @@ When was this file updated?
       <WordsStyle name="BACKTICKS" styleID="11" fgColor="CB4B16" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="HERE DELIM" styleID="12" fgColor="DC322F" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="HERE Q" styleID="13" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="USER KEYWORDS 1" styleID="128" fgColor="268BD2" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle1" />
+      <WordsStyle name="USER KEYWORDS 2" styleID="129" fgColor="D33682" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle2" />
+      <WordsStyle name="USER KEYWORDS 3" styleID="130" fgColor="CB4B16" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle3" />
+      <WordsStyle name="USER KEYWORDS 4" styleID="131" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle4" />
+      <WordsStyle name="USER SCALAR 1" styleID="132" fgColor="CB4B16" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle5" />
+      <WordsStyle name="USER SCALAR 2" styleID="133" fgColor="D33682" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle6" />
+      <WordsStyle name="USER SCALAR 3" styleID="134" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle7" />
+      <WordsStyle name="USER SCALAR 4" styleID="135" fgColor="DC322F" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle8" />
     </LexerType>
     <LexerType name="batch" desc="Batch" ext="">
       <WordsStyle name="DEFAULT" styleID="0" fgColor="657B83" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
@@ -216,6 +240,14 @@ When was this file updated?
       <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="18" fgColor="D33682" bgColor="FDF6E3" fontName="" fontStyle="3" fontSize="" />
       <WordsStyle name="PREPROCESSOR COMMENT" styleID="23" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="2" fontSize="" />
       <WordsStyle name="PREPROCESSOR COMMENT DOC" styleID="24" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="2" fontSize="" />
+      <WordsStyle name="USER KEYWORDS 1" styleID="128" fgColor="268BD2" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle1" />
+      <WordsStyle name="USER KEYWORDS 2" styleID="129" fgColor="D33682" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle2" />
+      <WordsStyle name="USER KEYWORDS 3" styleID="130" fgColor="CB4B16" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle3" />
+      <WordsStyle name="USER KEYWORDS 4" styleID="131" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle4" />
+      <WordsStyle name="USER KEYWORDS 5" styleID="132" fgColor="B58900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle5" />
+      <WordsStyle name="USER KEYWORDS 6" styleID="133" fgColor="DC322F" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle6" />
+      <WordsStyle name="USER KEYWORDS 7" styleID="134" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle7" />
+      <WordsStyle name="USER KEYWORDS 8" styleID="135" fgColor="859900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle8" />
     </LexerType>
     <LexerType name="cpp" desc="C++" ext="">
       <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="DC322F" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
@@ -236,6 +268,14 @@ When was this file updated?
       <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="18" fgColor="D33682" bgColor="FDF6E3" fontName="" fontStyle="3" fontSize="" />
       <WordsStyle name="PREPROCESSOR COMMENT" styleID="23" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="2" fontSize="" />
       <WordsStyle name="PREPROCESSOR COMMENT DOC" styleID="24" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="2" fontSize="" />
+      <WordsStyle name="USER KEYWORDS 1" styleID="128" fgColor="268BD2" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle1" />
+      <WordsStyle name="USER KEYWORDS 2" styleID="129" fgColor="D33682" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle2" />
+      <WordsStyle name="USER KEYWORDS 3" styleID="130" fgColor="CB4B16" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle3" />
+      <WordsStyle name="USER KEYWORDS 4" styleID="131" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle4" />
+      <WordsStyle name="USER KEYWORDS 5" styleID="132" fgColor="B58900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle5" />
+      <WordsStyle name="USER KEYWORDS 6" styleID="133" fgColor="DC322F" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle6" />
+      <WordsStyle name="USER KEYWORDS 7" styleID="134" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle7" />
+      <WordsStyle name="USER KEYWORDS 8" styleID="135" fgColor="859900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle8" />
     </LexerType>
     <LexerType name="cs" desc="C#" ext="">
       <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="DC322F" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
@@ -256,6 +296,14 @@ When was this file updated?
       <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="18" fgColor="D33682" bgColor="FDF6E3" fontName="" fontStyle="3" fontSize="" />
       <WordsStyle name="PREPROCESSOR COMMENT" styleID="23" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="2" fontSize="" />
       <WordsStyle name="PREPROCESSOR COMMENT DOC" styleID="24" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="2" fontSize="" />
+      <WordsStyle name="USER KEYWORDS 1" styleID="128" fgColor="268BD2" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle1" />
+      <WordsStyle name="USER KEYWORDS 2" styleID="129" fgColor="D33682" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle2" />
+      <WordsStyle name="USER KEYWORDS 3" styleID="130" fgColor="CB4B16" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle3" />
+      <WordsStyle name="USER KEYWORDS 4" styleID="131" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle4" />
+      <WordsStyle name="USER KEYWORDS 5" styleID="132" fgColor="B58900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle5" />
+      <WordsStyle name="USER KEYWORDS 6" styleID="133" fgColor="DC322F" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle6" />
+      <WordsStyle name="USER KEYWORDS 7" styleID="134" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle7" />
+      <WordsStyle name="USER KEYWORDS 8" styleID="135" fgColor="859900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle8" />
     </LexerType>
     <LexerType name="caml" desc="Caml" ext="">
       <WordsStyle name="DEFAULT" styleID="0" fgColor="657B83" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
@@ -513,6 +561,33 @@ When was this file updated?
       <WordsStyle name="HEXNUMBER" styleID="17" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="BINNUMBER" styleID="18" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
     </LexerType>
+    <LexerType name="gdscript" desc="GDScript" ext="">
+      <WordsStyle name="DEFAULT" styleID="0" fgColor="657B83" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="COMMENT LINE" styleID="1" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="2" fontSize="" />
+      <WordsStyle name="NUMBER" styleID="2" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="STRING" styleID="3" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="CHARACTER" styleID="4" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="WORD" styleID="5" fgColor="859900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
+      <WordsStyle name="TRIPLE" styleID="6" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="TRIPLE DOUBLE" styleID="7" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="CLASS NAME" styleID="8" fgColor="B58900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="FUNC NAME" styleID="9" fgColor="268BD2" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="OPERATOR" styleID="10" fgColor="586E75" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="IDENTIFIER" styleID="11" fgColor="B58900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="COMMENT BLOCK" styleID="12" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="2" fontSize="" />
+      <WordsStyle name="STRING EOL" styleID="13" fgColor="DC322F" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="WORD2" styleID="14" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
+      <WordsStyle name="ANNOTATION" styleID="15" fgColor="859900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="NODEPATH" styleID="16" fgColor="268BD2" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="USER KEYWORDS 1" styleID="128" fgColor="268BD2" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle1" />
+      <WordsStyle name="USER KEYWORDS 2" styleID="129" fgColor="D33682" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle2" />
+      <WordsStyle name="USER KEYWORDS 3" styleID="130" fgColor="CB4B16" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle3" />
+      <WordsStyle name="USER KEYWORDS 4" styleID="131" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle4" />
+      <WordsStyle name="USER KEYWORDS 5" styleID="132" fgColor="B58900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle5" />
+      <WordsStyle name="USER KEYWORDS 6" styleID="133" fgColor="DC322F" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle6" />
+      <WordsStyle name="USER KEYWORDS 7" styleID="134" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle7" />
+      <WordsStyle name="USER KEYWORDS 8" styleID="135" fgColor="859900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle8" />
+    </LexerType>
     <LexerType name="go" desc="Go" ext="">
       <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="DC322F" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="DEFAULT" styleID="11" fgColor="657B83" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
@@ -533,6 +608,14 @@ When was this file updated?
       <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="18" fgColor="D33682" bgColor="FDF6E3" fontName="" fontStyle="3" fontSize="" />
       <WordsStyle name="PREPROCESSOR COMMENT" styleID="23" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="2" fontSize="" />
       <WordsStyle name="PREPROCESSOR COMMENT DOC" styleID="24" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="2" fontSize="" />
+      <WordsStyle name="USER KEYWORDS 1" styleID="128" fgColor="268BD2" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle1" />
+      <WordsStyle name="USER KEYWORDS 2" styleID="129" fgColor="D33682" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle2" />
+      <WordsStyle name="USER KEYWORDS 3" styleID="130" fgColor="CB4B16" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle3" />
+      <WordsStyle name="USER KEYWORDS 4" styleID="131" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle4" />
+      <WordsStyle name="USER KEYWORDS 5" styleID="132" fgColor="B58900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle5" />
+      <WordsStyle name="USER KEYWORDS 6" styleID="133" fgColor="DC322F" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle6" />
+      <WordsStyle name="USER KEYWORDS 7" styleID="134" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle7" />
+      <WordsStyle name="USER KEYWORDS 8" styleID="135" fgColor="859900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle8" />
     </LexerType>
     <LexerType name="gui4cli" desc="Gui4Cli" ext="">
       <WordsStyle name="DEFAULT" styleID="0" fgColor="657B83" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
@@ -597,6 +680,14 @@ When was this file updated?
       <WordsStyle name="CDATA" styleID="17" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="VALUE" styleID="19" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="ENTITY" styleID="10" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="2" fontSize="" />
+      <WordsStyle name="USER TAGS1" styleID="192" fgColor="B58900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle1" />
+      <WordsStyle name="USER TAGS2" styleID="193" fgColor="DC322F" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle2" />
+      <WordsStyle name="USER TAGS3" styleID="194" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle3" />
+      <WordsStyle name="USER TAGS4" styleID="195" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle4" />
+      <WordsStyle name="USER ATTRIBUTES1" styleID="196" fgColor="B58900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle5" />
+      <WordsStyle name="USER ATTRIBUTES2" styleID="197" fgColor="CB4B16" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle6" />
+      <WordsStyle name="USER ATTRIBUTES3" styleID="198" fgColor="DC322F" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle7" />
+      <WordsStyle name="USER ATTRIBUTES4" styleID="199" fgColor="D33682" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle8" />
     </LexerType>
     <LexerType name="ihex" desc="Intel HEX" ext="">
       <WordsStyle name="DEFAULT" styleID="0" fgColor="657B83" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
@@ -658,6 +749,14 @@ When was this file updated?
       <WordsStyle name="COMMENT LINE DOC" styleID="15" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="2" fontSize="" />
       <WordsStyle name="COMMENT DOC KEYWORD" styleID="17" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="3" fontSize="" />
       <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="18" fgColor="D33682" bgColor="FDF6E3" fontName="" fontStyle="3" fontSize="" />
+      <WordsStyle name="USER KEYWORDS 1" styleID="128" fgColor="268BD2" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle1" />
+      <WordsStyle name="USER KEYWORDS 2" styleID="129" fgColor="D33682" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle2" />
+      <WordsStyle name="USER KEYWORDS 3" styleID="130" fgColor="CB4B16" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle3" />
+      <WordsStyle name="USER KEYWORDS 4" styleID="131" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle4" />
+      <WordsStyle name="USER KEYWORDS 5" styleID="132" fgColor="B58900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle5" />
+      <WordsStyle name="USER KEYWORDS 6" styleID="133" fgColor="DC322F" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle6" />
+      <WordsStyle name="USER KEYWORDS 7" styleID="134" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle7" />
+      <WordsStyle name="USER KEYWORDS 8" styleID="135" fgColor="859900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle8" />
     </LexerType>
     <LexerType name="javascript" desc="JavaScript (embedded)" ext="">
       <WordsStyle name="DEFAULT" styleID="41" fgColor="657B83" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
@@ -671,6 +770,14 @@ When was this file updated?
       <WordsStyle name="COMMENT" styleID="42" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="2" fontSize="" />
       <WordsStyle name="COMMENT LINE" styleID="43" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="2" fontSize="" />
       <WordsStyle name="COMMENT DOC" styleID="44" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="2" fontSize="" />
+      <WordsStyle name="USER KEYWORDS 1" styleID="200" fgColor="268BD2" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle1" />
+      <WordsStyle name="USER KEYWORDS 2" styleID="201" fgColor="D33682" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle2" />
+      <WordsStyle name="USER KEYWORDS 3" styleID="202" fgColor="CB4B16" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle3" />
+      <WordsStyle name="USER KEYWORDS 4" styleID="203" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle4" />
+      <WordsStyle name="USER KEYWORDS 5" styleID="204" fgColor="B58900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle5" />
+      <WordsStyle name="USER KEYWORDS 6" styleID="205" fgColor="DC322F" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle6" />
+      <WordsStyle name="USER KEYWORDS 7" styleID="206" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle7" />
+      <WordsStyle name="USER KEYWORDS 8" styleID="207" fgColor="859900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle8" />
     </LexerType>
     <LexerType name="javascript.js" desc="JavaScript" ext="">
       <WordsStyle name="DEFAULT" styleID="11" fgColor="657B83" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
@@ -690,6 +797,14 @@ When was this file updated?
       <WordsStyle name="COMMENT LINE DOC" styleID="15" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="2" fontSize="" />
       <WordsStyle name="COMMENT DOC KEYWORD" styleID="17" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="3" fontSize="" />
       <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="18" fgColor="D33682" bgColor="FDF6E3" fontName="" fontStyle="3" fontSize="" />
+      <WordsStyle name="USER KEYWORDS 1" styleID="128" fgColor="268BD2" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle1" />
+      <WordsStyle name="USER KEYWORDS 2" styleID="129" fgColor="D33682" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle2" />
+      <WordsStyle name="USER KEYWORDS 3" styleID="130" fgColor="CB4B16" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle3" />
+      <WordsStyle name="USER KEYWORDS 4" styleID="131" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle4" />
+      <WordsStyle name="USER KEYWORDS 5" styleID="132" fgColor="B58900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle5" />
+      <WordsStyle name="USER KEYWORDS 6" styleID="133" fgColor="DC322F" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle6" />
+      <WordsStyle name="USER KEYWORDS 7" styleID="134" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle7" />
+      <WordsStyle name="USER KEYWORDS 8" styleID="135" fgColor="859900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle8" />
     </LexerType>
     <LexerType name="json" desc="JSON" ext="">
       <WordsStyle name="DEFAULT" styleID="0" fgColor="657B83" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
@@ -762,12 +877,16 @@ When was this file updated?
       <WordsStyle name="FUNC1" styleID="13" fgColor="CB4B16" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
       <WordsStyle name="FUNC2" styleID="14" fgColor="B58900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
       <WordsStyle name="FUNC3" styleID="15" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="type2" />
-      <WordsStyle name="USER KEYWORD 1" styleID="16" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="type3" />
-      <WordsStyle name="USER KEYWORD 2" styleID="17" fgColor="CB4B16" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="type4" />
-      <WordsStyle name="USER KEYWORD 3" styleID="18" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="type5" />
-      <WordsStyle name="USER KEYWORD 4" styleID="19" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="type6" />
+      <WordsStyle name="USER KEYWORDS 1" styleID="16" fgColor="268BD2" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="type3" />
+      <WordsStyle name="USER KEYWORDS 2" styleID="17" fgColor="D33682" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="type4" />
+      <WordsStyle name="USER KEYWORDS 3" styleID="18" fgColor="CB4B16" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="type5" />
+      <WordsStyle name="USER KEYWORDS 4" styleID="19" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="type6" />
       <WordsStyle name="IDENTIFIER" styleID="11" fgColor="B58900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="LABEL" styleID="20" fgColor="CB4B16" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="USER KEYWORDS 5" styleID="128" fgColor="B58900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle1" />
+      <WordsStyle name="USER KEYWORDS 6" styleID="129" fgColor="DC322F" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle2" />
+      <WordsStyle name="USER KEYWORDS 7" styleID="130" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle3" />
+      <WordsStyle name="USER KEYWORDS 8" styleID="131" fgColor="859900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle4" />
     </LexerType>
     <LexerType name="makefile" desc="Makefile" ext="">
       <WordsStyle name="DEFAULT" styleID="0" fgColor="657B83" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
@@ -988,12 +1107,20 @@ When was this file updated?
       <WordsStyle name="COMPLEX VARIABLE" styleID="104" fgColor="B58900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="STRING VARIABLE" styleID="126" fgColor="B58900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="SIMPLE STRING" styleID="120" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
-      <WordsStyle name="WORD" styleID="121" fgColor="859900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
+      <WordsStyle name="KEYWORDS" styleID="121" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
       <WordsStyle name="NUMBER" styleID="122" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="VARIABLE" styleID="123" fgColor="B58900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="COMMENT" styleID="124" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="2" fontSize="" />
       <WordsStyle name="COMMENT LINE" styleID="125" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="2" fontSize="" />
       <WordsStyle name="OPERATOR" styleID="127" fgColor="586E75" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="PREDEFINED" styleID="213" fgColor="D33682" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle6" />
+      <WordsStyle name="FUNCS AND METHODS 1" styleID="214" fgColor="268BD2" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle7" />
+      <WordsStyle name="FUNCS AND METHODS 2" styleID="215" fgColor="6c71c4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle8" />
+      <WordsStyle name="USER KEYWORDS 1" styleID="208" fgColor="268BD2" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle1" />
+      <WordsStyle name="USER KEYWORDS 2" styleID="209" fgColor="D33682" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle2" />
+      <WordsStyle name="USER KEYWORDS 3" styleID="210" fgColor="CB4B16" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle3" />
+      <WordsStyle name="USER KEYWORDS 4" styleID="211" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle4" />
+      <WordsStyle name="USER KEYWORDS 5" styleID="212" fgColor="B58900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle5" />
     </LexerType>
     <LexerType name="postscript" desc="Postscript" ext="">
       <WordsStyle name="DEFAULT" styleID="0" fgColor="657B83" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
@@ -1078,6 +1205,14 @@ When was this file updated?
       <WordsStyle name="F CHARACTER" styleID="17" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="F TRIPLE" styleID="18" fgColor="657B83" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="F TRIPLEDOUBLE" styleID="19" fgColor="657B83" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="USER KEYWORDS 1" styleID="128" fgColor="268BD2" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle1" />
+      <WordsStyle name="USER KEYWORDS 2" styleID="129" fgColor="D33682" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle2" />
+      <WordsStyle name="USER KEYWORDS 3" styleID="130" fgColor="CB4B16" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle3" />
+      <WordsStyle name="USER KEYWORDS 4" styleID="131" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle4" />
+      <WordsStyle name="USER KEYWORDS 5" styleID="132" fgColor="B58900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle5" />
+      <WordsStyle name="USER KEYWORDS 6" styleID="133" fgColor="DC322F" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle6" />
+      <WordsStyle name="USER KEYWORDS 7" styleID="134" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle7" />
+      <WordsStyle name="USER KEYWORDS 8" styleID="135" fgColor="859900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle8" />
     </LexerType>
     <LexerType name="r" desc="R" ext="">
       <WordsStyle name="DEFAULT" styleID="0" fgColor="657B83" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
@@ -1148,6 +1283,14 @@ When was this file updated?
       <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="18" fgColor="D33682" bgColor="FDF6E3" fontName="" fontStyle="3" fontSize="" />
       <WordsStyle name="PREPROCESSOR COMMENT" styleID="23" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="2" fontSize="" />
       <WordsStyle name="PREPROCESSOR COMMENT DOC" styleID="24" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="2" fontSize="" />
+      <WordsStyle name="USER KEYWORDS 1" styleID="128" fgColor="268BD2" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle1" />
+      <WordsStyle name="USER KEYWORDS 2" styleID="129" fgColor="D33682" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle2" />
+      <WordsStyle name="USER KEYWORDS 3" styleID="130" fgColor="CB4B16" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle3" />
+      <WordsStyle name="USER KEYWORDS 4" styleID="131" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle4" />
+      <WordsStyle name="USER KEYWORDS 5" styleID="132" fgColor="B58900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle5" />
+      <WordsStyle name="USER KEYWORDS 6" styleID="133" fgColor="DC322F" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle6" />
+      <WordsStyle name="USER KEYWORDS 7" styleID="134" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle7" />
+      <WordsStyle name="USER KEYWORDS 8" styleID="135" fgColor="859900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle8" />
     </LexerType>
     <LexerType name="rebol" desc="REBOL" ext="">
       <WordsStyle name="DEFAULT" styleID="32" fgColor="657B83" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
@@ -1342,6 +1485,14 @@ When was this file updated?
       <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="18" fgColor="D33682" bgColor="FDF6E3" fontName="" fontStyle="3" fontSize="" />
       <WordsStyle name="PREPROCESSOR COMMENT" styleID="23" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="2" fontSize="" />
       <WordsStyle name="PREPROCESSOR COMMENT DOC" styleID="24" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="2" fontSize="" />
+      <WordsStyle name="USER KEYWORDS 1" styleID="128" fgColor="268BD2" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle1" />
+      <WordsStyle name="USER KEYWORDS 2" styleID="129" fgColor="D33682" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle2" />
+      <WordsStyle name="USER KEYWORDS 3" styleID="130" fgColor="CB4B16" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle3" />
+      <WordsStyle name="USER KEYWORDS 4" styleID="131" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle4" />
+      <WordsStyle name="USER KEYWORDS 5" styleID="132" fgColor="B58900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle5" />
+      <WordsStyle name="USER KEYWORDS 6" styleID="133" fgColor="DC322F" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle6" />
+      <WordsStyle name="USER KEYWORDS 7" styleID="134" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle7" />
+      <WordsStyle name="USER KEYWORDS 8" styleID="135" fgColor="859900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle8" />
     </LexerType>
     <LexerType name="tcl" desc="TCL" ext="">
       <WordsStyle name="DEFAULT" styleID="0" fgColor="657B83" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
@@ -1390,6 +1541,23 @@ When was this file updated?
       <WordsStyle name="COMMAND" styleID="4" fgColor="586E75" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="TEXT" styleID="5" fgColor="657B83" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
     </LexerType>
+    <LexerType name="toml" desc="TOML" ext="">
+      <WordsStyle name="DEFAULT" styleID="0" fgColor="657B83" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="COMMENT" styleID="1" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="2" fontSize="" />
+      <WordsStyle name="IDENTIFIER" styleID="2" fgColor="B58900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="KEYWORD" styleID="3" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
+      <WordsStyle name="NUMBER" styleID="4" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="TABLE" styleID="5" fgColor="6c71c4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="KEY" styleID="6" fgColor="268BD2" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="ERROR" styleID="7" fgColor="D33682" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="OPERATOR" styleID="8" fgColor="586E75" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="STRING SQ" styleID="9" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="STRING DQ" styleID="10" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="TRIPLE STRING SQ" styleID="11" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="TRIPLE STRING DQ" styleID="12" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="ESCAPE CHAR" styleID="13" fgColor="DC322F" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="DATETIME" styleID="14" fgColor="6c71c4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+    </LexerType>
     <LexerType name="txt2tags" desc="txt2tags" ext="">
       <WordsStyle name="DEFAULT" styleID="0" fgColor="657B83" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="SPECIAL" styleID="1" fgColor="586E75" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
@@ -1436,25 +1604,14 @@ When was this file updated?
       <WordsStyle name="COMMENT LINE DOC" styleID="15" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="2" fontSize="" />
       <WordsStyle name="COMMENT DOC KEYWORD" styleID="17" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="3" fontSize="" />
       <WordsStyle name="COMMENT DOC KEYWORD ERROR" styleID="18" fgColor="D33682" bgColor="FDF6E3" fontName="" fontStyle="3" fontSize="" />
-    </LexerType>
-    <LexerType name="gdscript" desc="GDScript" ext="">
-      <WordsStyle name="DEFAULT" styleID="0" fgColor="657B83" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
-      <WordsStyle name="COMMENT LINE" styleID="1" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="2" fontSize="" />
-      <WordsStyle name="NUMBER" styleID="2" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
-      <WordsStyle name="STRING" styleID="3" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
-      <WordsStyle name="CHARACTER" styleID="4" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
-      <WordsStyle name="WORD" styleID="5" fgColor="859900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
-      <WordsStyle name="TRIPLE" styleID="6" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
-      <WordsStyle name="TRIPLE DOUBLE" styleID="7" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
-      <WordsStyle name="CLASS NAME" styleID="8" fgColor="B58900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
-      <WordsStyle name="FUNC NAME" styleID="9" fgColor="268BD2" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
-      <WordsStyle name="OPERATOR" styleID="10" fgColor="586E75" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
-      <WordsStyle name="IDENTIFIER" styleID="11" fgColor="B58900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
-      <WordsStyle name="COMMENT BLOCK" styleID="12" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="2" fontSize="" />
-      <WordsStyle name="STRING EOL" styleID="13" fgColor="DC322F" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
-      <WordsStyle name="WORD2" styleID="14" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
-      <WordsStyle name="ANNOTATION" styleID="15" fgColor="859900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
-      <WordsStyle name="NODEPATH" styleID="16" fgColor="268BD2" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="USER KEYWORDS 1" styleID="128" fgColor="268BD2" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle1" />
+      <WordsStyle name="USER KEYWORDS 2" styleID="129" fgColor="D33682" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle2" />
+      <WordsStyle name="USER KEYWORDS 3" styleID="130" fgColor="CB4B16" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle3" />
+      <WordsStyle name="USER KEYWORDS 4" styleID="131" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle4" />
+      <WordsStyle name="USER KEYWORDS 5" styleID="132" fgColor="B58900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle5" />
+      <WordsStyle name="USER KEYWORDS 6" styleID="133" fgColor="DC322F" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle6" />
+      <WordsStyle name="USER KEYWORDS 7" styleID="134" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle7" />
+      <WordsStyle name="USER KEYWORDS 8" styleID="135" fgColor="859900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle8" />
     </LexerType>
     <LexerType name="vb" desc="VB / VBS" ext="">
       <WordsStyle name="DEFAULT" styleID="7" fgColor="657B83" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
@@ -1540,6 +1697,14 @@ When was this file updated?
       <WordsStyle name="SGML DEFAULT" styleID="21" fgColor="657B83" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="CDATA" styleID="17" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="ENTITY" styleID="10" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="2" fontSize="" />
+      <WordsStyle name="USER ATTRIBUTES 1" styleID="192" fgColor="B58900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle1" />
+      <WordsStyle name="USER ATTRIBUTES 2" styleID="193" fgColor="CB4B16" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle2" />
+      <WordsStyle name="USER ATTRIBUTES 3" styleID="194" fgColor="DC322F" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle3" />
+      <WordsStyle name="USER ATTRIBUTES 4" styleID="195" fgColor="D33682" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle4" />
+      <WordsStyle name="USER ATTRIBUTES 5" styleID="196" fgColor="6c71c4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle5" />
+      <WordsStyle name="USER ATTRIBUTES 6" styleID="197" fgColor="268BD2" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle6" />
+      <WordsStyle name="USER ATTRIBUTES 7" styleID="198" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle7" />
+      <WordsStyle name="USER ATTRIBUTES 8" styleID="199" fgColor="859900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle8" />
     </LexerType>
     <LexerType name="yaml" desc="YAML" ext="">
       <WordsStyle name="DEFAULT" styleID="0" fgColor="657B83" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
@@ -1587,6 +1752,9 @@ When was this file updated?
     <WidgetStyle name="White space symbol" styleID="0" fgColor="93A1A1" />
     <WidgetStyle name="Smart Highlighting" styleID="29" bgColor="B58900" />
     <WidgetStyle name="Find Mark Style" styleID="31" bgColor="6C71C4" />
+    <WidgetStyle name="Find status: Not found" styleID="0" fgColor="CB4B16" />
+    <WidgetStyle name="Find status: Message" styleID="0" fgColor="2AA198" />
+    <WidgetStyle name="Find status: Search end reached" styleID="0" fgColor="6c71c4" />
     <WidgetStyle name="Mark Style 1" styleID="25" bgColor="DC322F" />
     <WidgetStyle name="Mark Style 2" styleID="24" bgColor="268BD2" />
     <WidgetStyle name="Mark Style 3" styleID="23" bgColor="2AA198" />
@@ -1599,6 +1767,16 @@ When was this file updated?
     <WidgetStyle name="Active tab unfocused indicator" styleID="0" fgColor="FDF6E3" />
     <WidgetStyle name="Active tab text" styleID="0" fgColor="000000" />
     <WidgetStyle name="Inactive tabs" styleID="0" fgColor="073642" bgColor="93A1A1" />
+    <WidgetStyle name="Tab color 1" styleID="0" bgColor="FDF6E3" />
+    <WidgetStyle name="Tab color 2" styleID="0" bgColor="FDF6E3" />
+    <WidgetStyle name="Tab color 3" styleID="0" bgColor="FDF6E3" />
+    <WidgetStyle name="Tab color 4" styleID="0" bgColor="FDF6E3" />
+    <WidgetStyle name="Tab color 5" styleID="0" bgColor="FDF6E3" />
+    <WidgetStyle name="Tab color dark mode 1" styleID="0" bgColor="FDF6E3" />
+    <WidgetStyle name="Tab color dark mode 2" styleID="0" bgColor="FDF6E3" />
+    <WidgetStyle name="Tab color dark mode 3" styleID="0" bgColor="FDF6E3" />
+    <WidgetStyle name="Tab color dark mode 4" styleID="0" bgColor="FDF6E3" />
+    <WidgetStyle name="Tab color dark mode 5" styleID="0" bgColor="FDF6E3" />
     <WidgetStyle name="URL hovered" styleID="0" fgColor="657B83" />
     <WidgetStyle name="Document map" styleID="0" fgColor="002B36" bgColor="FDF6E3" />
     <WidgetStyle name="EOL custom color" styleID="0" fgColor="DC322F" />
