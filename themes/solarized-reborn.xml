@@ -5,7 +5,7 @@ What is this?
 This is a theme for Notepad++. It provides color definitions for displaying texts and syntax highlighting.
 - This is a dark theme
 - It is based on Solarized by Ethan Schoonover ( http://ethanschoonover.com/solarized ), which defines the color palette used in this theme
-- It is based on the stylers.model.xml from Notepad++ 8.7 ( which means, all languages, that were defined there, are supported )
+- It is based on the stylers.model.xml from Notepad++ 8.7.1 ( which means, all languages, that were defined there, are supported )
 
 How to use this file?
 This file needs to be copied to the themes folder in your Nptepad++ config folder ( %AppData%\Notepad++\themes for default installations )
@@ -15,7 +15,7 @@ Where do I get the latest version?
 https://github.com/dodmi/NPP-Addons/tree/master/themes
 
 When was this file updated?
-2024-09-18
+2024-11-06
 
 -->
 <NotepadPlus>
@@ -1727,7 +1727,6 @@ When was this file updated?
   </LexerStyles>
   <GlobalStyles>
     <!-- Attention : Don't modify the name of styleID="0" -->
-    <WidgetStyle name="Global override" styleID="0" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
     <WidgetStyle name="Default Style" styleID="32" fgColor="839496" bgColor="002B36" fontName="Consolas" fontStyle="0" fontSize="10" />
     <WidgetStyle name="Indent guideline style" styleID="37" fgColor="586E75" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
     <WidgetStyle name="Brace highlight style" styleID="34" fgColor="FDF6E3" bgColor="B58900" fontName="" fontStyle="1" fontSize="" />
@@ -1781,5 +1780,6 @@ When was this file updated?
     <WidgetStyle name="Document map" styleID="0" fgColor="FDF6E3" bgColor="002B36" />
     <WidgetStyle name="EOL custom color" styleID="0" fgColor="DC322F" />
     <WidgetStyle name="Non-printing characters custom color" styleID="0" fgColor="586E75" />
+    <WidgetStyle name="Global override" styleID="0" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
   </GlobalStyles>
 </NotepadPlus>
