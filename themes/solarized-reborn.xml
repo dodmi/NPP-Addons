@@ -5,7 +5,7 @@ What is this?
 This is a theme for Notepad++. It provides color definitions for displaying texts and syntax highlighting.
 - This is a dark theme
 - It is based on Solarized by Ethan Schoonover ( http://ethanschoonover.com/solarized ), which defines the color palette used in this theme
-- It is based on the stylers.model.xml from Notepad++ 8.7.1 ( which means, all languages, that were defined there, are supported )
+- It is based on the stylers.model.xml from Notepad++ 8.7.5 ( which means, all languages, that were defined there, are supported )
 
 How to use this file?
 This file needs to be copied to the themes folder in your Nptepad++ config folder ( %AppData%\Notepad++\themes for default installations )
@@ -15,7 +15,7 @@ Where do I get the latest version?
 https://github.com/dodmi/NPP-Addons/tree/master/themes
 
 When was this file updated?
-2024-11-06
+2024-12-26
 
 -->
 <NotepadPlus>
@@ -1626,7 +1626,6 @@ When was this file updated?
     <LexerType name="verilog" desc="Verilog" ext="">
       <WordsStyle name="DEFAULT" styleID="0" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="IDENTIFIER" styleID="11" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
-      <WordsStyle name="TAGNAME" styleID="2" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="INSTRUCTION WORD" styleID="5" fgColor="859900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
       <WordsStyle name="KEYWORD" styleID="7" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
       <WordsStyle name="OPERATOR" styleID="10" fgColor="93A1A1" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
