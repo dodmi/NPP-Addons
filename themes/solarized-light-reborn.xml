@@ -5,7 +5,7 @@ What is this?
 This is a theme for Notepad++. It provides color definitions for displaying texts and syntax highlighting.
 - This is a light theme
 - It is based on Solarized by Ethan Schoonover ( http://ethanschoonover.com/solarized ), which defines the color palette used in this theme
-- It is based on the stylers.model.xml from Notepad++ 8.7.5 ( which means, all languages, that were defined there, are supported )
+- It is based on the stylers.model.xml from Notepad++ 8.7.6 ( which means, all languages, that were defined there, are supported )
 
 How to use this file?
 This file needs to be copied to the themes folder in your Nptepad++ config folder ( %AppData%\Notepad++\themes for default installations )
@@ -15,7 +15,7 @@ Where do I get the latest version?
 https://github.com/dodmi/NPP-Addons/tree/master/themes
 
 When was this file updated?
-2024-12-26
+2025-01-28
 
 -->
 <NotepadPlus>
@@ -684,7 +684,7 @@ When was this file updated?
       <WordsStyle name="USER TAGS2" styleID="193" fgColor="DC322F" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle2" />
       <WordsStyle name="USER TAGS3" styleID="194" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle3" />
       <WordsStyle name="USER TAGS4" styleID="195" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle4" />
-      <WordsStyle name="USER ATTRIBUTES1" styleID="196" fgColor="B58900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle5" />
+      <WordsStyle name="USER ATTRIBUTES1" styleID="196" fgColor="B58900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle5">download</WordsStyle>
       <WordsStyle name="USER ATTRIBUTES2" styleID="197" fgColor="CB4B16" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle6" />
       <WordsStyle name="USER ATTRIBUTES3" styleID="198" fgColor="DC322F" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle7" />
       <WordsStyle name="USER ATTRIBUTES4" styleID="199" fgColor="D33682" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="substyle8" />
@@ -765,6 +765,8 @@ When was this file updated?
       <WordsStyle name="KEYWORD" styleID="47" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
       <WordsStyle name="DOUBLE STRING" styleID="48" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="SINGLE STRING" styleID="49" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="TEMPLATE LIT. (CLIENT)" styleID="53" fgColor="D33682" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="TEMPLATE LIT. (SERVER)" styleID="68" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="SYMBOLS" styleID="50" fgColor="657B83" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="REGEX" styleID="52" fgColor="268BD2" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="COMMENT" styleID="42" fgColor="93A1A1" bgColor="FDF6E3" fontName="" fontStyle="2" fontSize="" />
