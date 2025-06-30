@@ -5,7 +5,7 @@ What is this?
 This is a theme for Notepad++. It provides color definitions for displaying texts and syntax highlighting.
 - This is a light theme
 - It is based on Solarized by Ethan Schoonover ( http://ethanschoonover.com/solarized ), which defines the color palette used in this theme
-- It is based on the stylers.model.xml from Notepad++ 8.8.1 ( which means, all languages, that were defined there, are supported )
+- It is based on the stylers.model.xml from Notepad++ 8.8.2 ( which means, all languages, that were defined there, are supported )
 
 How to use this file?
 This file needs to be copied to the themes folder in your Nptepad++ config folder ( %AppData%\Notepad++\themes for default installations )
@@ -15,7 +15,7 @@ Where do I get the latest version?
 https://github.com/dodmi/NPP-Addons/tree/master/themes
 
 When was this file updated?
-2025-05-05
+2025-06-30
 
 -->
 <NotepadPlus>
@@ -641,6 +641,7 @@ When was this file updated?
       <WordsStyle name="PREDECLARED IDENTIFIERS" styleID="19" fgColor="B58900" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
       <WordsStyle name="NUMBER" styleID="4" fgColor="6C71C4" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="STRING" styleID="6" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="STRING RAW" styleID="20" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="CHARACTER" styleID="7" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="OPERATOR" styleID="10" fgColor="586E75" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="VERBATIM" styleID="13" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
@@ -1435,6 +1436,8 @@ When was this file updated?
       <WordsStyle name="BYTE STRING" styleID="21" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="RAW BYTE STRING" styleID="22" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="BYTE CHARACTER" styleID="23" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="C STRING" styleID="24" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="RAW C STRING" styleID="25" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
     </LexerType>
     <LexerType name="sas" desc="SAS" ext="">
       <WordsStyle name="DEFAULT" styleID="0" fgColor="657B83" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
