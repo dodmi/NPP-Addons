@@ -1746,7 +1746,7 @@ When was this file updated?
       <WordsStyle name="STRING VERBATIM SPECIAL" styleID="21" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="STRING VERBATIM EOL" styleID="22" fgColor="2AA198" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
     </LexerType>
-    <LexerType name="xml" desc="XML" ext="">
+    <LexerType name="xml" desc="XML" ext="officeUI officeSL">
       <WordsStyle name="XML START" styleID="12" fgColor="DC322F" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="XML END" styleID="13" fgColor="DC322F" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="DEFAULT" styleID="0" fgColor="000001" bgColor="FDF6E3" fontName="" fontStyle="0" fontSize="" />
