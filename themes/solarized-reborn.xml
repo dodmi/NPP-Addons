@@ -5,7 +5,7 @@ What is this?
 This is a theme for Notepad++. It provides color definitions for displaying texts and syntax highlighting.
 - This is a dark theme
 - It is based on Solarized by Ethan Schoonover ( http://ethanschoonover.com/solarized ), which defines the color palette used in this theme
-- It is based on the stylers.model.xml from Notepad++ 8.8.2 ( which means, all languages, that were defined there, are supported )
+- It is based on the stylers.model.xml from Notepad++ 8.8.6 ( which means, all languages, that were defined there, are supported )
 
 How to use this file?
 This file needs to be copied to the themes folder in your Nptepad++ config folder ( %AppData%\Notepad++\themes for default installations )
@@ -15,7 +15,7 @@ Where do I get the latest version?
 https://github.com/dodmi/NPP-Addons/tree/master/themes
 
 When was this file updated?
-2025-06-30
+2025-10-08
 
 -->
 <NotepadPlus>
@@ -723,6 +723,11 @@ When was this file updated?
       <WordsStyle name="ATTRIBUTE" styleID="3" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="ATTRIBUTE UNKNOWN" styleID="4" fgColor="D33682" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="SGML DEFAULT" styleID="21" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="SGML COMMAND" styleID="22" fgColor="268BD2" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
+      <WordsStyle name="SGML 1ST PARAM" styleID="23" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="SGML DOUBLESTRING" styleID="24" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="SGML SIMPLESTRING" styleID="25" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="SGML BLOCK DEFAULT" styleID="31" fgColor="DC322F" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="CDATA" styleID="17" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="VALUE" styleID="19" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="ENTITY" styleID="10" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="2" fontSize="" />
@@ -1745,7 +1750,7 @@ When was this file updated?
       <WordsStyle name="STRING VERBATIM SPECIAL" styleID="21" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="STRING VERBATIM EOL" styleID="22" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
     </LexerType>
-    <LexerType name="xml" desc="XML" ext="officeUI officeSL">
+    <LexerType name="xml" desc="XML" ext="">
       <WordsStyle name="XML START" styleID="12" fgColor="DC322F" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="XML END" styleID="13" fgColor="DC322F" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="DEFAULT" styleID="0" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
@@ -1759,6 +1764,11 @@ When was this file updated?
       <WordsStyle name="ATTRIBUTE" styleID="3" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="ATTRIBUTE UNKNOWN" styleID="4" fgColor="D33682" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="SGML DEFAULT" styleID="21" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="SGML COMMAND" styleID="22" fgColor="268BD2" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
+      <WordsStyle name="SGML 1ST PARAM" styleID="23" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="SGML DOUBLESTRING" styleID="24" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="SGML SIMPLESTRING" styleID="25" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="SGML BLOCK DEFAULT" styleID="31" fgColor="DC322F" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="CDATA" styleID="17" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="ENTITY" styleID="10" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="2" fontSize="" />
       <WordsStyle name="USER ATTRIBUTES 1" styleID="192" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="substyle1" />
