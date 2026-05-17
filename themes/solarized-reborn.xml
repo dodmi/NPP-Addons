@@ -5,7 +5,7 @@ What is this?
 This is a theme for Notepad++. It provides color definitions for displaying texts and syntax highlighting.
 - This is a dark theme
 - It is based on Solarized by Ethan Schoonover ( http://ethanschoonover.com/solarized ), which defines the color palette used in this theme
-- It is based on the stylers.model.xml from Notepad++ 8.9.4 ( which means, all languages, that were defined there, are supported )
+- It is based on the stylers.model.xml from Notepad++ 8.9.5 ( which means, all languages, that were defined there, are supported )
 
 How to use this file?
 This file needs to be copied to the themes folder in your Nptepad++ config folder ( %AppData%\Notepad++\themes for default installations )
@@ -15,7 +15,7 @@ Where do I get the latest version?
 https://github.com/dodmi/NPP-Addons/tree/master/themes
 
 When was this file updated?
-2026-04-27
+2026-05-17
 
 -->
 <NotepadPlus modelDate="20251223">
@@ -118,7 +118,7 @@ When was this file updated?
       <WordsStyle name="MACRO" styleID="6" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
       <WordsStyle name="STRING" styleID="7" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="OPERATOR" styleID="8" fgColor="93A1A1" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
-      <WordsStyle name="VARIABLE" styleID="9" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="VARIABLE" styleID="9" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="SENT" styleID="10" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type2" />
       <WordsStyle name="PREPROCESSOR" styleID="11" fgColor="DC322F" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type3" />
       <WordsStyle name="SPECIAL" styleID="12" fgColor="93A1A1" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type4" />
@@ -158,7 +158,7 @@ When was this file updated?
       <WordsStyle name="FUNCTIONS ABRIDGED" styleID="11" fgColor="268BD2" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
       <WordsStyle name="SUB SECTIONS" styleID="12" fgColor="268BD2" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type2" />
       <WordsStyle name="MAIN SECTIONS" styleID="13" fgColor="268BD2" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type3" />
-      <WordsStyle name="PREDEFINED VARIABLE" styleID="14" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type4" />
+      <WordsStyle name="PREDEFINED VARIABLE" styleID="14" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type4" />
       <WordsStyle name="PREDEFINED ATTRIBUTES" styleID="15" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type5" />
       <WordsStyle name="ENUM DOMAINS" styleID="16" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type6" />
       <WordsStyle name="USER DEFINED" styleID="17" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type7" />
@@ -201,7 +201,7 @@ When was this file updated?
       <WordsStyle name="LABEL" styleID="3" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="HIDE SYMBOL" styleID="4" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="COMMAND" styleID="5" fgColor="93A1A1" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
-      <WordsStyle name="VARIABLE" styleID="6" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="VARIABLE" styleID="6" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="OPERATOR" styleID="7" fgColor="93A1A1" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="AFTER LABEL" styleID="8" fgColor="DC322F" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
     </LexerType>
@@ -331,13 +331,13 @@ When was this file updated?
       <WordsStyle name="STRING R" styleID="4" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="COMMAND" styleID="5" fgColor="93A1A1" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
       <WordsStyle name="PARAMETER" styleID="6" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
-      <WordsStyle name="VARIABLE" styleID="7" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="VARIABLE" styleID="7" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="USER DEFINED" styleID="8" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
       <WordsStyle name="WHILEDEF" styleID="9" fgColor="859900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="FOREACHDEF" styleID="10" fgColor="859900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="IFDEF" styleID="11" fgColor="859900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="MACRODEF" styleID="12" fgColor="859900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
-      <WordsStyle name="STRING VARIABLE" styleID="13" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="STRING VARIABLE" styleID="13" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="NUMBER" styleID="14" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
     </LexerType>
     <LexerType name="cobol" desc="COBOL" ext="">
@@ -369,10 +369,10 @@ When was this file updated?
       <WordsStyle name="USER KEYWORDS" styleID="8" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
       <WordsStyle name="COMMENT BLOCK" styleID="9" fgColor="586E75" bgColor="002B36" fontName="" fontStyle="2" fontSize="" />
       <WordsStyle name="PARAMETER" styleID="10" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
-      <WordsStyle name="A-RATE VARIABLE" styleID="11" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
-      <WordsStyle name="K-RATE VARIABLE" styleID="12" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
-      <WordsStyle name="I-RATE VARIABLE" styleID="13" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
-      <WordsStyle name="GLOBAL VARIABLE" styleID="14" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="A-RATE VARIABLE" styleID="11" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="K-RATE VARIABLE" styleID="12" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="I-RATE VARIABLE" styleID="13" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="GLOBAL VARIABLE" styleID="14" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="END OF LINE WHERE STRING IS NOT CLOSED" styleID="15" fgColor="D33682" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
     </LexerType>
     <LexerType name="coffeescript" desc="CoffeeScript" ext="">
@@ -422,7 +422,7 @@ When was this file updated?
       <WordsStyle name="LEGACY PSEUDOELEMENT" styleID="20" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type5" />
       <!--WordsStyle name="EXTENDED_PSEUDOELEMENT" styleID="21" fgColor="7F7F00" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" /-->
       <WordsStyle name="MEDIA" styleID="22" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
-      <WordsStyle name="VARIABLE" styleID="23" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="VARIABLE" styleID="23" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
     </LexerType>
     <LexerType name="d" desc="D" ext="">
       <WordsStyle name="DEFAULT" styleID="0" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
@@ -464,7 +464,7 @@ When was this file updated?
       <WordsStyle name="MODULE COMMENT" styleID="15" fgColor="586E75" bgColor="002B36" fontName="" fontStyle="2" fontSize="" />
       <WordsStyle name="DOCUMENTATION HELPER IN COMMENT" styleID="16" fgColor="586E75" bgColor="002B36" fontName="" fontStyle="3" fontSize="" keywordClass="type3" />
       <WordsStyle name="DOCUMENTATION MACRO IN COMMENT" styleID="17" fgColor="586E75" bgColor="002B36" fontName="" fontStyle="3" fontSize="" keywordClass="type4" />
-      <WordsStyle name="VARIABLE" styleID="2" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="VARIABLE" styleID="2" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="NUMBER" styleID="3" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="STRING" styleID="5" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="CHARACTER" styleID="9" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
@@ -975,7 +975,7 @@ When was this file updated?
       <WordsStyle name="STRING" styleID="4" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="OPERATOR" styleID="5" fgColor="93A1A1" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="IDENTIFIER" styleID="6" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
-      <WordsStyle name="VARIABLE" styleID="7" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="VARIABLE" styleID="7" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="COL NAME" styleID="8" fgColor="268BD2" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="COL NAME IN []'s" styleID="16" fgColor="268BD2" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
     </LexerType>
@@ -1009,7 +1009,7 @@ When was this file updated?
       <WordsStyle name="STRING LEFT QUOTE" styleID="3" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="STRING RIGHT QUOTE" styleID="4" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="FUNCTION" styleID="5" fgColor="268BD2" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
-      <WordsStyle name="VARIABLE" styleID="6" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
+      <WordsStyle name="VARIABLE" styleID="6" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
       <WordsStyle name="LABEL" styleID="7" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
       <WordsStyle name="USER DEFINED" styleID="8" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type2" />
       <WordsStyle name="SECTION" styleID="9" fgColor="268BD2" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
@@ -1051,7 +1051,7 @@ When was this file updated?
       <WordsStyle name="ASTERISK" styleID="6" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="NUMBER" styleID="7" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="DOUBLE QUOTED STRING" styleID="8" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
-      <WordsStyle name="ENVIRONMENT VARIABLE" styleID="9" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="ENVIRONMENT VARIABLE" styleID="9" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="IDENTIFIER" styleID="10" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
     </LexerType>
     <LexerType name="oscript" desc="OScript" ext="">
@@ -1065,7 +1065,7 @@ When was this file updated?
       <WordsStyle name="STRING DOUBLE QUOTES" styleID="7" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="CONSTANT LITERAL" styleID="8" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
       <WordsStyle name="IDENTIFIER" styleID="9" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
-      <WordsStyle name="SERVER-GLOBAL VARIABLE (PREFIXED BY $)" styleID="10" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="SERVER-GLOBAL VARIABLE (PREFIXED BY $)" styleID="10" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="LANGUAGE NATIVE KEYWORD OR RESERVED WORD" styleID="11" fgColor="859900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
       <WordsStyle name="OPERATOR; EITHER SYMBOLIC OR LITERAL" styleID="12" fgColor="93A1A1" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
       <WordsStyle name="LABEL TO JUMP TO WITH THE GOTO STATEMENT" styleID="13" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
@@ -1110,6 +1110,7 @@ When was this file updated?
       <WordsStyle name="CHARACTER" styleID="12" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="OPERATOR" styleID="13" fgColor="93A1A1" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="ASM" styleID="14" fgColor="268BD2" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="MULTILINESTRING" styleID="15" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
     </LexerType>
     <LexerType name="perl" desc="Perl" ext="">
       <WordsStyle name="DEFAULT" styleID="0" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
@@ -1158,18 +1159,18 @@ When was this file updated?
       <WordsStyle name="QUESTION MARK" styleID="18" fgColor="DC322F" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="DEFAULT" styleID="118" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="STRING" styleID="119" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
-      <WordsStyle name="COMPLEX VARIABLE" styleID="104" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
-      <WordsStyle name="STRING VARIABLE" styleID="126" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="COMPLEX VARIABLE" styleID="104" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="STRING VARIABLE" styleID="126" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="SIMPLE STRING" styleID="120" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="KEYWORDS" styleID="121" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
       <WordsStyle name="NUMBER" styleID="122" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
-      <WordsStyle name="VARIABLE" styleID="123" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="VARIABLE" styleID="123" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="COMMENT" styleID="124" fgColor="586E75" bgColor="002B36" fontName="" fontStyle="2" fontSize="" />
       <WordsStyle name="COMMENT LINE" styleID="125" fgColor="586E75" bgColor="002B36" fontName="" fontStyle="2" fontSize="" />
       <WordsStyle name="OPERATOR" styleID="127" fgColor="93A1A1" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="PREDEFINED" styleID="213" fgColor="D33682" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="substyle6" />
       <WordsStyle name="FUNCS AND METHODS 1" styleID="214" fgColor="268BD2" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="substyle7" />
-      <WordsStyle name="FUNCS AND METHODS 2" styleID="215" fgColor="6c71c4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="substyle8" />
+      <WordsStyle name="FUNCS AND METHODS 2" styleID="215" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="substyle8" />
       <WordsStyle name="USER KEYWORDS 1" styleID="208" fgColor="268BD2" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="substyle1" />
       <WordsStyle name="USER KEYWORDS 2" styleID="209" fgColor="D33682" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="substyle2" />
       <WordsStyle name="USER KEYWORDS 3" styleID="210" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="substyle3" />
@@ -1200,12 +1201,12 @@ When was this file updated?
       <WordsStyle name="STRING" styleID="2" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="CHARACTER" styleID="3" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="NUMBER" styleID="4" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
-      <WordsStyle name="VARIABLE" styleID="5" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="VARIABLE" styleID="5" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="OPERATOR" styleID="6" fgColor="93A1A1" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="IDENTIFIER" styleID="7" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="INSTRUCTION WORD" styleID="8" fgColor="859900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
       <WordsStyle name="CMDLET" styleID="9" fgColor="268BD2" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="instre2" />
-      <WordsStyle name="ALIAS" styleID="10" fgColor="859900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
+      <WordsStyle name="ALIAS" styleID="10" fgColor="268BD2" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type1" />
       <WordsStyle name="FUNCTION" styleID="11" fgColor="268BD2" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type2" />
       <WordsStyle name="USER KEYWORDS" styleID="12" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="type3" />
       <WordsStyle name="COMMENT STREAM" styleID="13" fgColor="586E75" bgColor="002B36" fontName="" fontStyle="2" fontSize="" />
@@ -1624,7 +1625,7 @@ When was this file updated?
       <WordsStyle name="IDENTIFIER" styleID="2" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="KEYWORD" styleID="3" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="instre1" />
       <WordsStyle name="NUMBER" styleID="4" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
-      <WordsStyle name="TABLE" styleID="5" fgColor="6c71c4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="TABLE" styleID="5" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="KEY" styleID="6" fgColor="268BD2" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="ERROR" styleID="7" fgColor="D33682" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="OPERATOR" styleID="8" fgColor="93A1A1" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
@@ -1633,7 +1634,7 @@ When was this file updated?
       <WordsStyle name="TRIPLE STRING SQ" styleID="11" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="TRIPLE STRING DQ" styleID="12" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="ESCAPE CHAR" styleID="13" fgColor="DC322F" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
-      <WordsStyle name="DATETIME" styleID="14" fgColor="6c71c4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="DATETIME" styleID="14" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
     </LexerType>
     <LexerType name="txt2tags" desc="txt2tags" ext="">
       <WordsStyle name="DEFAULT" styleID="0" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
@@ -1742,7 +1743,7 @@ When was this file updated?
       <WordsStyle name="COMMENT KEY" styleID="6" fgColor="586E75" bgColor="002B36" fontName="" fontStyle="3" fontSize="" keywordClass="type2" />
       <WordsStyle name="COMMENT KEY ERROR" styleID="7" fgColor="586E75" bgColor="002B36" fontName="" fontStyle="3" fontSize="" />
       <WordsStyle name="IDENTIFIER" styleID="8" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
-      <WordsStyle name="VARIABLE" styleID="9" fgColor="B58900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
+      <WordsStyle name="VARIABLE" styleID="9" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="ANONYMOUS" styleID="10" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="NUMBER" styleID="11" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
       <WordsStyle name="OPERATOR" styleID="12" fgColor="93A1A1" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
@@ -1782,7 +1783,7 @@ When was this file updated?
       <WordsStyle name="USER ATTRIBUTES 2" styleID="193" fgColor="CB4B16" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="substyle2" />
       <WordsStyle name="USER ATTRIBUTES 3" styleID="194" fgColor="DC322F" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="substyle3" />
       <WordsStyle name="USER ATTRIBUTES 4" styleID="195" fgColor="D33682" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="substyle4" />
-      <WordsStyle name="USER ATTRIBUTES 5" styleID="196" fgColor="6c71c4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="substyle5" />
+      <WordsStyle name="USER ATTRIBUTES 5" styleID="196" fgColor="6C71C4" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="substyle5" />
       <WordsStyle name="USER ATTRIBUTES 6" styleID="197" fgColor="268BD2" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="substyle6" />
       <WordsStyle name="USER ATTRIBUTES 7" styleID="198" fgColor="2AA198" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="substyle7" />
       <WordsStyle name="USER ATTRIBUTES 8" styleID="199" fgColor="859900" bgColor="002B36" fontName="" fontStyle="0" fontSize="" keywordClass="substyle8" />
@@ -1817,19 +1818,19 @@ When was this file updated?
     <WidgetStyle name="Selected text colour" styleID="0" bgColor="EEE8D5" fgColor="000000" />
     <WidgetStyle name="Multi-selected text color" styleID="0" bgColor="EEE8D5" />
     <WidgetStyle name="Caret colour" styleID="0" fgColor="EEE8D5" />
-    <WidgetStyle name="Multi-edit carets color" styleID="0" fgColor="6c71c4" />
+    <WidgetStyle name="Multi-edit carets color" styleID="0" fgColor="6C71C4" />
     <WidgetStyle name="Edge colour" styleID="0" fgColor="586E75" />
     <WidgetStyle name="Line number margin" styleID="33" fgColor="586E75" bgColor="073642" fontName="" fontStyle="0" fontSize="" />
     <WidgetStyle name="Bookmark margin" styleID="0" bgColor="073642" />
     <WidgetStyle name="Change History margin" styleID="0" bgColor="073642" />
     <WidgetStyle name="Change History modified" styleID="0" fgColor="CB4B16" bgColor="CB4B16" />
-    <WidgetStyle name="Change History revert modified" styleID="0" fgColor="6c71c4" bgColor="6c71c4" />
+    <WidgetStyle name="Change History revert modified" styleID="0" fgColor="6C71C4" bgColor="6C71C4" />
     <WidgetStyle name="Change History revert origin" styleID="0" fgColor="268BD2" bgColor="268BD2" />
     <WidgetStyle name="Change History saved" styleID="0" fgColor="859900" bgColor="859900" />
     <WidgetStyle name="Fold" styleID="0" fgColor="586E75" bgColor="073642" />
     <WidgetStyle name="Fold active" styleID="0" fgColor="DC322F" />
     <WidgetStyle name="Fold margin" styleID="0" fgColor="586E75" bgColor="073642" />
-    <WidgetStyle name="White space symbol" styleID="0" fgColor="586E75" />
+    <WidgetStyle name="White space symbol" styleID="0" fgColor="073642" />
     <WidgetStyle name="Smart Highlighting" styleID="29" bgColor="B58900" />
     <WidgetStyle name="Find Mark Style" styleID="31" bgColor="6C71C4" />
     <WidgetStyle name="Find status: Not found" styleID="0" fgColor="CB4B16" />
@@ -1859,8 +1860,8 @@ When was this file updated?
     <WidgetStyle name="Tab color dark mode 5" styleID="0" bgColor="002B36" />
     <WidgetStyle name="URL hovered" styleID="0" fgColor="839496" />
     <WidgetStyle name="Document map" styleID="0" fgColor="FDF6E3" bgColor="002B36" />
-    <WidgetStyle name="EOL custom color" styleID="0" fgColor="DC322F" />
-    <WidgetStyle name="Non-printing characters custom color" styleID="0" fgColor="586E75" />
+    <WidgetStyle name="EOL custom color" styleID="0" fgColor="586E75" />
+    <WidgetStyle name="Non-printing characters custom color" styleID="0" fgColor="D33682" />
     <WidgetStyle name="Global override" styleID="0" fgColor="839496" bgColor="002B36" fontName="" fontStyle="0" fontSize="" />
   </GlobalStyles>
 </NotepadPlus>
